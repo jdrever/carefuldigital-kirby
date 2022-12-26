@@ -42,7 +42,7 @@
   </p>
   <div class="col-sm p-3 m-2 border border-pimary rounded-3" style="background-color: #e8e9dd">
     <h3>
-      <img src="/images/craft_logo.svg" alt="" width="42" height="42" />
+      <img src="/assets/images/craft_logo.svg" alt="" width="42" height="42" />
       CRAFT
     </h3>
     <p>For this project, we needed to retrieve and present biodiversity information from the National Biodiversity
@@ -50,7 +50,7 @@
   </div>
   <div class="d-flex justify-content-center">
     <figure class="figure ">
-      <img src="/images/projects/shrop-bot-site.jpg" class="figure-img img-fluid rounded"
+      <img src="/assets/images/projects/shrop-bot-site.jpg" class="figure-img img-fluid rounded"
         alt="A screenshot from the Shropshire Botanical Society website" />
       <figcaption class="figure-caption text-center">Shropshire Botanical Society botanical records website</figcaption>
     </figure>
@@ -77,7 +77,7 @@
   <h2>Natural Entrepreneurs</h2>
   <div class="d-flex justify-content-center">
     <figure class="figure">
-      <img src="/images/projects/natent-logo-sml.jpeg" class="figure-img img-fluid rounded"
+      <img src="/assets/images/projects/natent-logo-sml.jpeg" class="figure-img img-fluid rounded"
         alt="Natural Entrepeneurs logo">
       <figcaption class="figure-caption text-end">The Natural Entrepeneurs logo</figcaption>
     </figure>
@@ -95,7 +95,7 @@
   </p>
   <div class="col-sm p-3 m-2 border border-pimary rounded-3" style="background-color: #e8e9dd">
     <h3>
-      <img src="/images/craft_logo.svg" alt="" width="42" height="42" />
+      <img src="/assets/images/craft_logo.svg" alt="" width="42" height="42" />
       CRAFT
     </h3>
     <p>For this project, we needed to create and host a project website, a learning environnent and collaboration
@@ -104,7 +104,7 @@
   </div>
   <div class="d-flex justify-content-center">
     <figure class="figure ">
-      <img src="/images/projects/natent-site.jpg" class="figure-img img-fluid rounded"
+      <img src="/assets/images/projects/natent-site.jpg" class="figure-img img-fluid rounded"
         alt="A screenshot from the Natural Entrepreneurs collaboration platform " />
       <figcaption class="figure-caption text-center">Natural Entrepreneurs collaboration platform</figcaption>
     </figure>
@@ -122,7 +122,7 @@
   </div>
   <div class="col-sm p-3 m-2 border border-pimary rounded-3" style="background-color: #e8e9dd">
     <h3>
-      <img src="/images/people_logo.svg" alt="" width="42" height="42" />
+      <img src="/assets/images/people_logo.svg" alt="" width="42" height="42" />
       PEOPLE
     </h3>
     <p>For this project, we have focused on the user's experience of the platform. Consistency and accessibility for the
@@ -141,7 +141,7 @@
   <h2>Change the Story</h2>
   <div class="d-flex justify-content-center">
     <figure class="figure">
-      <img src="/images/projects/cts-logo.jpg" class="figure-img img-fluid rounded" alt="Change the Story logo">
+      <img src="/assets/images/projects/cts-logo.jpg" class="figure-img img-fluid rounded" alt="Change the Story logo">
       <figcaption class="figure-caption">The Change the Story logo</figcaption>
     </figure>
   </div>
@@ -160,7 +160,7 @@
   </p>
   <div class="col-sm p-3 m-2 border border-pimary rounded-3" style="background-color: #e8e9dd">
     <h3>
-      <img src="/images/craft_logo.svg" alt="" width="42" height="42" />
+      <img src="/assets/images/craft_logo.svg" alt="" width="42" height="42" />
       CRAFT
     </h3>
     <p>There was quite a complex technical challenge here, as the stories
@@ -171,7 +171,7 @@
   </div>
   <div class="d-flex justify-content-center">
     <figure class="figure ">
-      <img src="/images/projects/cts-stories.jpg" class="figure-img img-fluid rounded"
+      <img src="/assets/images/projects/cts-stories.jpg" class="figure-img img-fluid rounded"
         alt="The Change the Story Celebration website" />
       <figcaption class="figure-caption text-center">The Change the Story Celebration website</figcaption>
     </figure>
@@ -197,7 +197,7 @@
   <p>We also created and hosted a Moodle learning environment for teachers for the schools involved in the trial.</p>
   <div class="col-sm p-3 m-2 border border-pimary rounded-3" style="background-color: #e8e9dd">
     <h3>
-      <img src="/images/people_logo.svg" alt="" width="42" height="42" />
+      <img src="/assets/images/people_logo.svg" alt="" width="42" height="42" />
       PEOPLE
     </h3>
     <p>Another element of our work on this project has been training teachers how to deliver the digital storymaking
