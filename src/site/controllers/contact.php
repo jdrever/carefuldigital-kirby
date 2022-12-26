@@ -40,7 +40,7 @@ return function($kirby, $pages, $page) {
                     'template' => 'email',
                     'from'     => 'james@careful.digital',
                     'replyTo'  => $data['email'],
-                    'to'       => 'you@yourcompany.com',
+                    'to'       => 'james@careful.digital',
                     'subject'  => esc($data['name']) . ' sent you a message from your contact form',
                     'data'     => [
                         'text'   => esc($data['text']),
