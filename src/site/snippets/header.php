@@ -16,8 +16,8 @@
     integrity="sha384-kQtW33rZJAHjgefvhyyzcGF3C5TFyBQBA13V1RKPf4uH+bwyzQxZ6CmMZHmNBEfJ" crossorigin="anonymous">
   </script>
   <?php if (true) : ?>
-  <link rel="stylesheet" href="/css/lite-yt-embed.css" />
-  <script src="/css/lite-yt-embed.js"></script>
+  <link rel="stylesheet" href="/assets/css/lite-yt-embed.css" />
+  <script src="/assets/css/lite-yt-embed.js"></script>
   <?php endif ?>
 
 

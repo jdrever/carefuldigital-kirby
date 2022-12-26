@@ -1,0 +1,21 @@
+Title: Intentional Technology: We are all cyborgs now
+
+----
+
+Openingcontent: 
+
+----
+
+Maincontent: [{"content":{"text":"<p>I've been thinking a lot recently about how to use technology intentionally. What do I mean by that? My starting point is the idea that we are all cyborgs now - expressed extremely well way back in 2010 by Amber Case in her much-viewed TED talk.<\/p>"},"id":"81d8f9b2-7543-427a-bb90-19e71d0528c5","isHidden":false,"type":"text"},{"content":{"url":"https:\/\/www.youtube.com\/watch?v=z1KJAXM3xYA","caption":""},"id":"58ad884b-2fe5-4e43-b0d4-4dd09e4703d2","isHidden":false,"type":"video"},{"content":{"text":"<p>We are all cyborgs, because although we have so far mostly resisted having technology inserted within our bodies, as the science fiction predicted, we have gleefully accepted a deep dependency on technology outside our bodies: placing our memories in our phones, using our phones to mediate our relationships and navigate and perceive the world. Technology can be amazing, but our use of it can be complusive and can separate us from what should be near at hand. Screen gazing or typing intently, the wider world and even our own bodies can fade away.<\/p><p>There have been lots of Youtube hours and blog post words dedicated to how to improve these external, secondary digital brains to make us more productive and effective but to me the deeper question is: how do our physical bodies and mind work alongside our external digital helpers? How do we work with technology in ways that allow us to engage deeply with the world around us?<\/p><p>To explore these question, we're planning a series of posts about Intentional Technology and the development of an online guide: <a href=\"\/commons\/guides\/intentional-technology\/\" title=\"Intentional Technology Guide\" rel=\"noopener noreferrer\">Intentional Technology<\/a>. We will be looking at these questions in a practical, every-day way. We still want to get things done, but we want to get them done with head and heart fully engaged.<\/p><p>The course is currently under development, and we are looking for people to join the free beta version of the course and to give feedback that will guide the development of the course.<\/p><p><a href=\"\/projects\/intentional-technology\/\" rel=\"noopener noreferrer\">Find out more about the course<\/a><a href=\"https:\/\/careful.digital\/projects\/intentional-technology\/\" rel=\"noopener noreferrer\">.<\/a><\/p>"},"id":"0ebc9fc9-9703-4bf2-860c-7a1707459c32","isHidden":false,"type":"text"}]
+
+----
+
+Publisheddate: 
+
+----
+
+Tags: 
+
+----
+
+Uuid: WCt5AcpdGO0tlHqe
