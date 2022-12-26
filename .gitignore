@@ -1,3 +1,8 @@
 /logs/*
 .DS_Store
 node_modules/
+/src/vendor
+/src/kirby
+/src/site/plugins/k3-trevor-view
+/src/site/plugins/kirby-color
+/src/site/plugins/k3-image-clip
