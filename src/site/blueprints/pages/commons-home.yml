@@ -8,7 +8,7 @@ columns:
         type: fields
         fields:
           text:
-            type: textarea
+            type: layout
             size: huge
   sidebar:
     width: 1/3
