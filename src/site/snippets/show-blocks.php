@@ -7,7 +7,7 @@ if (!isset($fieldName))
 $pageTitle=$page->title();
 ?>
 
-<div class="container m-0">
+<div class="container m-0 p-0">
 <?php foreach ($page->content->get($fieldName)->toLayouts() as $layout) : ?>
   <div class="row" id="<?= $layout->id() ?>">
   <?php foreach ($layout->columns() as $column) : ?>

@@ -33,5 +33,4 @@
 <body>
   <?php snippet('menu') ?> 
   <?php snippet('breadcrumb') ?> 
-  <div class="container-fluid mt-4 mx-auto" style="width: 80%;">
-    <main>
+  <div class="container my-4">

@@ -17,7 +17,7 @@
   },
   "homepage": "https://careful.digital",
   "dependencies": {
-    "bootstrap": "^5.2.2",
+    "bootstrap": "^5.2.3",
     "lite-youtube-embed": "^0.2.0"
   }
 }

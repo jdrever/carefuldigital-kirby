@@ -2,5 +2,17 @@ $dark: darkred;
 $primary: black;
 $headings-color: darkred;
 $font-family-base: "Open Sans", sans-serif;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 900px,
+  xl: 900px,
+  xxl: 900px,
+);
+
 @import "../node_modules/bootstrap/scss/bootstrap";
+
+
+
 
