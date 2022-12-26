@@ -61,7 +61,7 @@
   </button>
   </p>
   <div class="collapse" id="collapseTechnical1">
-    <p>Building on the excellent foundations the Society already in place, we developed an PHP MVC web application which
+    <p>Building on the excellent foundations the Society already had in place, we developed an PHP MVC web application which
       queried the NBN's API.</p>
     </p>
   </div>
