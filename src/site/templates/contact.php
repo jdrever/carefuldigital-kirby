@@ -44,9 +44,7 @@
     <label for="text" class="form-label">
       Message <abbr title="required">*</abbr>
     </label>
-    <textarea id="text" name="text" class="form-control"  required>
-                    <?= esc($data['text'] ?? '') ?>
-                </textarea>
+    <textarea id="text" name="text" class="form-control"  required><?= esc($data['text'] ?? '') ?></textarea>
     <?= isset($alert['text']) ? '<span class="alert error">' . esc($alert['text']) . '</span>' : '' ?>
   </div>
   <input type="submit" name="submit" value="Submit">
