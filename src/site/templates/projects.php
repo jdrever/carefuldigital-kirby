@@ -19,7 +19,7 @@
     meaningful community links for schools, develop learning between the generations and make memories to share.
   </p>
   <p>
-    <a href="/projects/nature-memory/" class="button">Find out more</a>
+    <a href="/projects/nature-memory/" class="btn btn-primary btn-sm">Find out more</a>
   </p>
 </section>
 <section class="case-study">
@@ -30,7 +30,7 @@
     and allow us to get things done while staying connected to the world around us? We are developing a course that
     guides individuals through these questions and helps find the best answers for them.</p>
   <p>
-    <a href="/projects/intentional-technology/" class="button">Find out more</a>
+    <a href="/projects/intentional-technology/" class="btn btn-primary btn-sm">Find out more</a>
   </p>
 </section>
 <a id="shropbot"></a>
@@ -55,9 +55,9 @@
       <figcaption class="figure-caption text-center">Shropshire Botanical Society botanical records website</figcaption>
     </figure>
   </div>
-  <button class="btn-outline-primary btn-sm" type="button" data-bs-toggle="collapse"
+  <button class="btn btn-outline-primary btn-sm" type="button" data-bs-toggle="collapse"
     data-bs-target="#collapseTechnical1" aria-expanded="false" aria-controls="collapseTechnical1">
-    TECHNICAL STUFF
+    <i class="bi bi-arrow-right-circle-fill"></i> TECHNICAL STUFF 
   </button>
   </p>
   <div class="collapse" id="collapseTechnical1">
@@ -109,9 +109,9 @@
       <figcaption class="figure-caption text-center">Natural Entrepreneurs collaboration platform</figcaption>
     </figure>
   </div>
-  <button class="btn-outline-primary btn-sm" type="button" data-bs-toggle="collapse"
+  <button class="btn btn-outline-primary btn-sm" type="button" data-bs-toggle="collapse"
     data-bs-target="#collapseTechnical1" aria-expanded="false" aria-controls="collapseTechnical1">
-    TECHNICAL STUFF
+    <i class="bi bi-arrow-right-circle-fill"></i> TECHNICAL STUFF
   </button>
   </p>
   <div class="collapse" id="collapseTechnical1">
@@ -176,9 +176,9 @@
       <figcaption class="figure-caption text-center">The Change the Story Celebration website</figcaption>
     </figure>
   </div>
-  <button class="btn-outline-primary btn-sm" type="button" data-bs-toggle="collapse"
+  <button class="btn btn-outline-primary btn-sm" type="button" data-bs-toggle="collapse"
     data-bs-target="#collapseTechnical1" aria-expanded="false" aria-controls="collapseTechnical1">
-    TECHNICAL STUFF
+    <i class="bi bi-arrow-right-circle-fill"></i> TECHNICAL STUFF
   </button>
   </p>
   <div class="collapse" id="collapseTechnical1">
