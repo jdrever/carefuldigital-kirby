@@ -104,7 +104,7 @@
   </div>
   <div class="d-flex justify-content-center">
     <figure class="figure ">
-      <img src="/assets/images/projects/natent-site.jpg" class="figure-img img-fluid rounded"
+      <img src="/assets/images/projects/natent.png" class="figure-img img-fluid rounded"
         alt="A screenshot from the Natural Entrepreneurs collaboration platform " />
       <figcaption class="figure-caption text-center">Natural Entrepreneurs collaboration platform</figcaption>
     </figure>
