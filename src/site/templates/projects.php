@@ -1,7 +1,7 @@
 <?php snippet('header') ?>
 <h1>Projects</h1>
 <p class="lead">
-  Careful Digital are currently partners on two Euroopan Union Erasmus Plus funded environmental education projects:
+  Careful Digital are currently partners on two European Union Erasmus Plus funded environmental education projects:
   <a href="#natent">Natural Entrepreneurs</a>
   and
   <a href="#cts">Change the Story</a>
