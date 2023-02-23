@@ -1,5 +1,5 @@
 <?php
-$posts=$page->children()->filterBy('template','blog-post');
+$posts=$page->children()->filterBy('template','blog-post')->sortBy('publishedDate', 'desc');
 // add the tag filter
 if($tag = param('tag')) {
   $posts = $posts->filterBy('tags', $tag, ',');

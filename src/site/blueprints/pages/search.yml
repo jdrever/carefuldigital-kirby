@@ -1,0 +1,15 @@
+title: Search
+
+columns:
+  main:
+    width: 1/1
+    sections:
+      fields:
+        type: fields
+        fields:
+          mainContent:
+            label: Main Content
+            type: layout
+            size: huge
+
+
