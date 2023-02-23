@@ -8,7 +8,7 @@
   <meta name="description" content="Guides by Careful Digital" />
   <meta name="author" content="James Drever" />
   <!-- Fathom - beautiful, simple website analytics -->
-  <script src="https://cdn.usefathom.com/script.js" data-site="PUGDMEZB" defer></script>
+  <script src="https://carefuld-fathom-usage-stats.careful.digital/script.js" data-site="PUGDMEZB" defer></script>
   <!-- / Fathom -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
   <link href="/assets/css/custom.css" rel="stylesheet">
