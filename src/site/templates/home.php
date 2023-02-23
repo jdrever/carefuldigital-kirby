@@ -61,7 +61,7 @@
     we don’t start with the technology, that comes later
   </div>
   <div class="col-sm p-3 m-2 border border-pimary rounded-3" style="background-color: #e8e9dd">
-    <img src="/images/craft_logo.svg" alt="" width="42" height="42" />
+    <img src="/assets/images/craft_logo.svg" alt="" width="42" height="42" />
     <br />
     <a href="#craft">
       <strong>CRAFT</strong>
@@ -72,7 +72,7 @@
     – we don’t rush towards a short-term fix
   </div>
   <div class="col-sm p-3 m-2 border border-pimary rounded-3" style="background-color: #e8e9dd">
-    <img src="/images/consideration_logo.svg" alt="" width="42" height="42" />
+    <img src="/assets/images/consideration_logo.svg" alt="" width="42" height="42" />
     <br />
     <a href="#consideration">
       <strong>CONSIDERATION</strong>
@@ -87,7 +87,7 @@
 <hr />
 <div class="container bg-light p-3 m-2 border border-pimary rounded-3">
   <h3>
-    <img src="/images/people_logo.svg" alt="" width="42" height="42" />
+    <img src="/assets/images/people_logo.svg" alt="" width="42" height="42" />
     <a id="people" name="people"></a>
     People
   </h3>
