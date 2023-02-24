@@ -31,6 +31,7 @@
                   <li class="nav-item"></li><a href="/commons/guides/" class="nav-link px-2 text-white">Guides</a></li>
                   <li class="nav-item"></li><a href="/commons/resources/" class="nav-link px-2 text-white">Resources</a></li>
                   <li class="nav-item"></li><a href="/commons/blog/" class="nav-link px-2 text-white">Blog</a></li>
+                  <li class="nav-item"></li><a href="/feed/index.xml" class="nav-link px-2 text-white">RSS</a></li>
                   <li class="nav-item"></li><a href="https://intentionaltechnology.substack.com" target="_blank"
                     class="nav-link px-2 text-white">Newsletter&rarr;</a></li>
                 </ul>
