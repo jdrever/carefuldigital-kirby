@@ -43,7 +43,7 @@ columns:
         type: fields
         fields:
           publishedDate:
-            label: Published published
+            label: Published
             type: date
           tags:
             label: Tags

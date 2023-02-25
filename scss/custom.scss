@@ -1,7 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
 $dark: darkred;
 $primary: black;
 $headings-color: darkred;
-$font-family-base: "Open Sans", sans-serif;
+
+
+
+$font-family-base: "Lexend", system-ui, -apple-system, "Segoe UI", Roboto,
+  "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif,
+  "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 
 $container-max-widths: (
   sm: 540px,
@@ -10,6 +17,8 @@ $container-max-widths: (
   xl: 900px,
   xxl: 900px,
 );
+
+
 
 @import "../node_modules/bootstrap/scss/bootstrap";
 
