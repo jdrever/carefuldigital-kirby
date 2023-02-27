@@ -14,7 +14,7 @@
       <title><?=$post->title()?></title>
       <link><?=$post->url()?></link>
       <description>
-        <?=$post->openingContent()?>
+        <?=html($post->openingContent())?>
       </description>
       <pubDate><?=date('r', $post->publishedDate()->toDate())?></pubDate>
     </item>
