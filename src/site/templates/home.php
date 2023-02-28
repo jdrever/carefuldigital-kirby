@@ -9,7 +9,7 @@
     <h3>Development</h3>
     <p>Providing bespoke web development based on twenty years experience</p>
     <p>
-      <a class="btn btn-primary" href="/services/development/">Find out more &raquo;</a>
+      <a class="btn btn-primary" href="/development/">Find out more &raquo;</a>
     </p>
   </div>
   <div class="col">
@@ -19,7 +19,7 @@
       results
     </p>
     <p>
-      <a class="btn btn-primary" href="/services/project-management/">Find out more &raquo;</a>
+      <a class="btn btn-primary" href="/project-management/">Find out more &raquo;</a>
     </p>
   </div>
 </div>
@@ -31,7 +31,7 @@
       change your processes
     </p>
     <p>
-      <a class="btn btn-primary" href="/services/strategy-consultancy/">Find out more &raquo;</a>
+      <a class="btn btn-primary" href="/strategy/">Find out more &raquo;</a>
     </p>
   </div>
   <div class="col">
@@ -41,7 +41,7 @@
       teams and individuals
     </p>
     <p>
-      <a class="btn btn-primary" href="/services/mentoring">Find out more &raquo;</a>
+      <a class="btn btn-primary" href="/mentoring/">Find out more &raquo;</a>
     </p>
   </div>
 </div>

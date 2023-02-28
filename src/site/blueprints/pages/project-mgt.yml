@@ -1,0 +1,5 @@
+title: Project Management Page
+fields:
+  text:
+    type: blocks
+    size: huge

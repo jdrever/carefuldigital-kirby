@@ -35,6 +35,21 @@ $container-max-widths: (
   width:90%;
 }
 
+section.case-study p.technical
+{
+    font-size:0.9em;
+    font-style: italic;
+}
+
+section.case-study figure
+{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align:center;
+}
+
 
 
 @import "../node_modules/bootstrap/scss/bootstrap";
