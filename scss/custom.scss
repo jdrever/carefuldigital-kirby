@@ -18,6 +18,23 @@ $container-max-widths: (
   xxl: 900px,
 );
 
+.topyenoh {
+  position: absolute;
+  left: -9999px;
+}
+
+.form-label
+{
+  display:block;
+}
+
+.form-item
+{
+  display:block;
+  margin:1em;
+  width:90%;
+}
+
 
 
 @import "../node_modules/bootstrap/scss/bootstrap";

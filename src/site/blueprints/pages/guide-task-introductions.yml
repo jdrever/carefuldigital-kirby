@@ -1,4 +1,4 @@
-title: Guide Section
+title: "Task: Introductions"
 
 columns:
   main:
@@ -12,8 +12,8 @@ columns:
     width: 1/3
     sections:
       pages:
-        label: Sub-Sections
+        label: Introductions
         type: pages
-        template: guide-section
+        template: guide-task-introduction
 
 

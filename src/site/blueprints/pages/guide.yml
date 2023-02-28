@@ -20,16 +20,15 @@ columns:
               - Alpha
               - Beta
               - Live
-          mainContent:
-            label: Main Content
-            type: blocks
-            size: huge
+          mainContent: fields/mainContent
   sidebar:
     width: 1/2
     sections:
       pages:
         label: Sections
         type: pages
-        template: guide-section
+        templates:
+          - guide-section
+          - guide-task-introductions
 
 
