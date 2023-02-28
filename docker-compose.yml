@@ -12,7 +12,8 @@ services:
       - ./src/:/var/www/html/
       - ./logs/nginx:/var/log/nginx/
   php:
-    image: php:fpm-alpine
+    build:
+      context: php/
     networks:
       - internal
     volumes:
