@@ -1,8 +1,10 @@
 <header>
   <div>
     <a href="/" class="logo"><img src="/assets/images/careful-digital-logo.svg" alt="Careful Digital logo: a circuit board heart"
-        width="100" height="100">
-      CAREFUL DIGITAL</a>
+        width="100" height="100"></a>
+  </div>
+  <div>
+    <a href="/" class="logo">CAREFUL DIGITAL</a>
     <a id="menu-toggle" class="menu-toggle" aria-label="Open the menu" aria-hidden="true">
       <svg viewBox="0 0 100 80" width="40" height="40">
         <rect fill="white" width="100" height="15"></rect>
