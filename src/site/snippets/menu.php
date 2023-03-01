@@ -1,17 +1,17 @@
 <header>
-    <div>
-      <a href="/"><img src="/assets/images/careful-digital-logo.svg"
-          alt="Careful Digital logo: a circuit board heart" width="100" height="100"></a>
+  <div>
+    <a href="/"><img src="/assets/images/careful-digital-logo.svg" alt="Careful Digital logo: a circuit board heart"
+        width="100" height="100">
       CAREFUL DIGITAL</a>
-      <a="#menu" id="menu-toggle" class="menu-toggle" aria-label="Open the menu" aria-hidden="true">
+    <a id="menu-toggle" class="menu-toggle" aria-label="Open the menu" aria-hidden="true">
       <svg viewBox="0 0 100 80" width="40" height="40">
         <rect fill="white" width="100" height="15"></rect>
         <rect fill="white" y="30" width="100" height="15"></rect>
         <rect fill="white" y="60" width="100" height="15"></rect>
-
       </svg>
-    </div>
-    <nav class="main">
+    </a>
+  </div>
+  <nav class="main">
     <div id="company-menu">
       <a href="/"><strong>Company</strong></a>
       <ul class="menu">
@@ -34,7 +34,7 @@
         <li class="nav-item"><a href="/commons/blog/" class="nav-link px-2 text-white">Blog</a></li>
         <li class="nav-item"><a href="/feed/index.xml" class="nav-link px-2 text-white">RSS</a></li>
         <li class="nav-item"><a href="https://buttondown.email/careful-digital" target="_blank"
-          class="nav-link px-2 text-white">Newsletter&rarr;</a></li>
+            class="nav-link px-2 text-white">Newsletter&rarr;</a></li>
       </ul>
     </div>
   </nav>
