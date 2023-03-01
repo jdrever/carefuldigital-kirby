@@ -2,6 +2,8 @@
 
 return function ($kirby, $page)
 {
+  $taskComplete=false;
+  $allIntentions = [];
 
   if ($kirby->request()->is('POST'))
   {
@@ -24,13 +26,9 @@ return function ($kirby, $page)
       'template' => 'guide-task-introduction',
     ]);
 
-    if ($page->hasChildren())
-    {
-      go($page->children()->first()->url());
-    }
-    if ($page->hasNext())
-    {
-      go($page->next()->url());
-    }
+    $allIntentions=$page->children();
+
+    $taskComplete=true;
   }
+  return compact('taskComplete', 'allIntentions');
 };
