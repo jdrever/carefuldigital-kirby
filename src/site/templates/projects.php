@@ -40,33 +40,27 @@
     Careful Digital was delighted to deliver a website for the Shropshire Botanical Society to allow access to the
     Society's botanical records.
   </p>
-  <div class="col-sm p-3 m-2 border border-pimary rounded-3" style="background-color: #e8e9dd">
+  <aside>
     <h3>
       <img src="/assets/images/craft_logo.svg" alt="" width="42" height="42" />
       CRAFT
     </h3>
     <p>For this project, we needed to retrieve and present biodiversity information from the National Biodiversity
       Network's store of data. </p>
-  </div>
-  <div class="d-flex justify-content-center">
-    <figure class="figure ">
-      <img src="/assets/images/projects/shrop-bot-site.jpg" class="figure-img img-fluid rounded"
-        alt="A screenshot from the Shropshire Botanical Society website" />
-      <figcaption class="figure-caption text-center">Shropshire Botanical Society botanical records website</figcaption>
-    </figure>
-  </div>
-  <button class="btn btn-outline-primary btn-sm" type="button" data-bs-toggle="collapse"
-    data-bs-target="#collapseTechnical1" aria-expanded="false" aria-controls="collapseTechnical1">
-    <i class="bi bi-arrow-right-circle-fill"></i> TECHNICAL STUFF 
-  </button>
-  </p>
-  <div class="collapse" id="collapseTechnical1">
-    <p>Building on the excellent foundations the Society already had in place, we developed an PHP MVC web application which
+  </aside>
+  <figure>
+    <img src="/assets/images/projects/shrop-bot-site.jpg"
+      alt="A screenshot from the Shropshire Botanical Society website" />
+    <figcaption>Shropshire Botanical Society botanical records website</figcaption>
+  </figure>
+  <aside>
+    <h4>TECHNICAL STUFF</h4>
+    <p>Building on the excellent foundations the Society already had in place, we developed an PHP MVC web application
+      which
       queried the NBN's API.</p>
     </p>
-  </div>
+</aside>
   <p>
-
     You can see the Shropshire Botanical Society botanical records website at
     <a href="https://flora.shropshirebotany.org.uk" target="_blank">https://flora.shropshirebotany.org.uk</a>
     .
@@ -75,13 +69,13 @@
 <a id="natent"></a>
 <section class="case-study">
   <h2>Natural Entrepreneurs</h2>
-  <div class="d-flex justify-content-center">
-    <figure class="figure">
-      <img src="/assets/images/projects/natent-logo-sml.jpeg" class="figure-img img-fluid rounded"
-        alt="Natural Entrepeneurs logo">
-      <figcaption class="figure-caption text-end">The Natural Entrepeneurs logo</figcaption>
-    </figure>
-  </div>
+
+  <figure class="figure">
+    <img src="/assets/images/projects/natent-logo-sml.jpeg" class="figure-img img-fluid rounded"
+      alt="Natural Entrepeneurs logo">
+    <figcaption class="figure-caption text-end">The Natural Entrepeneurs logo</figcaption>
+  </figure>
+
   <p>
     Careful Digital is a partner on this major EU-funded project. Natural Entrepreneurs is aimed at students across
     Europe, in the age range of 14 to 18 years.
@@ -93,7 +87,7 @@
     students to work through the biomimicry design process in teams,
     accrue appreciation points, contribute to The Commons (a resource centre) and comment on other Teams’ ideas.
   </p>
-  <div class="col-sm p-3 m-2 border border-pimary rounded-3" style="background-color: #e8e9dd">
+  <aside>
     <h3>
       <img src="/assets/images/craft_logo.svg" alt="" width="42" height="42" />
       CRAFT
@@ -101,26 +95,20 @@
     <p>For this project, we needed to create and host a project website, a learning environnent and collaboration
       platform, all integrated into one seamless environment for our participants.
       We also needed the site needed to work in the five different languages of the participating countries.</p>
-  </div>
-  <div class="d-flex justify-content-center">
+  </aside>
     <figure class="figure ">
       <img src="/assets/images/projects/natent.png" class="figure-img img-fluid rounded"
         alt="A screenshot from the Natural Entrepreneurs collaboration platform " />
       <figcaption class="figure-caption text-center">Natural Entrepreneurs collaboration platform</figcaption>
     </figure>
-  </div>
-  <button class="btn btn-outline-primary btn-sm" type="button" data-bs-toggle="collapse"
-    data-bs-target="#collapseTechnical1" aria-expanded="false" aria-controls="collapseTechnical1">
-    <i class="bi bi-arrow-right-circle-fill"></i> TECHNICAL STUFF
-  </button>
-  </p>
-  <div class="collapse" id="collapseTechnical1">
+    <aside>
+    <h4>TECHNICAL STUFF</h4>
     <p>We built the website using WordPress, added the MemberPress plugin to provide the learning environment, and the
       Polygot plug to cater for the multi-lingual requirements.
       We then integrated in bespoke collaboration features that we developed in PHP.</p>
     </p>
-  </div>
-  <div class="col-sm p-3 m-2 border border-pimary rounded-3" style="background-color: #e8e9dd">
+</aside>
+  <aside>
     <h3>
       <img src="/assets/images/people_logo.svg" alt="" width="42" height="42" />
       PEOPLE
@@ -129,7 +117,7 @@
       user is of great importance to Careful Digital, and we like to ensure that our products are well tested before
       they are released. For educational projects, we work with schools and universities to build evidence of the User
       Experience and respond accordingly to make our products as appealing and efficient as possible.</p>
-  </div>
+  </aside>
   <p>
 
     You can see the Natural Entrepreneurs website at
@@ -139,12 +127,10 @@
 <a id="cts"></a>
 <section class="case-study">
   <h2>Change the Story</h2>
-  <div class="d-flex justify-content-center">
-    <figure class="figure">
-      <img src="/assets/images/projects/cts-logo.jpg" class="figure-img img-fluid rounded" alt="Change the Story logo">
-      <figcaption class="figure-caption">The Change the Story logo</figcaption>
-    </figure>
-  </div>
+  <figure class="figure">
+    <img src="/assets/images/projects/cts-logo.jpg" class="figure-img img-fluid rounded" alt="Change the Story logo">
+    <figcaption class="figure-caption">The Change the Story logo</figcaption>
+  </figure>
   <p>
     Careful Digital is a partner on this major EU-funded project which brings
     together pupils in schools across Europe to create digital stories about
@@ -158,7 +144,7 @@
     <a href="http://mynameismartin.com/about" target="_blank">Martin Wright</a>
     on the design of the site.
   </p>
-  <div class="col-sm p-3 m-2 border border-pimary rounded-3" style="background-color: #e8e9dd">
+  <aside>
     <h3>
       <img src="/assets/images/craft_logo.svg" alt="" width="42" height="42" />
       CRAFT
@@ -168,20 +154,14 @@
       different tools and technologies, and we needed to find a way to present those
       stories in as accessible way as possible. Plus the site needed to work in the five different languages of the
       participating countries.</p>
-  </div>
-  <div class="d-flex justify-content-center">
-    <figure class="figure ">
-      <img src="/assets/images/projects/cts-stories.jpg" class="figure-img img-fluid rounded"
-        alt="The Change the Story Celebration website" />
-      <figcaption class="figure-caption text-center">The Change the Story Celebration website</figcaption>
-    </figure>
-  </div>
-  <button class="btn btn-outline-primary btn-sm" type="button" data-bs-toggle="collapse"
-    data-bs-target="#collapseTechnical1" aria-expanded="false" aria-controls="collapseTechnical1">
-    <i class="bi bi-arrow-right-circle-fill"></i> TECHNICAL STUFF
-  </button>
-  </p>
-  <div class="collapse" id="collapseTechnical1">
+  </aside>
+  <figure class="figure ">
+    <img src="/assets/images/projects/cts-stories.jpg" class="figure-img img-fluid rounded"
+      alt="The Change the Story Celebration website" />
+    <figcaption class="figure-caption text-center">The Change the Story Celebration website</figcaption>
+  </figure>
+  <aside>
+    <h4>TECHNICAL STUFF</h4>
     <p>
       The site was developed using
       the wonderful
@@ -193,9 +173,9 @@
       website and complex and sophisticated content management system will offer
       the best possible experience for editors and visitors to the site.
     </p>
-  </div>
+</aside>
   <p>We also created and hosted a Moodle learning environment for teachers for the schools involved in the trial.</p>
-  <div class="col-sm p-3 m-2 border border-pimary rounded-3" style="background-color: #e8e9dd">
+  <aside>
     <h3>
       <img src="/assets/images/people_logo.svg" alt="" width="42" height="42" />
       PEOPLE
@@ -204,13 +184,12 @@
       component of the project.
       We've given technical advice on devices and software and planning advice on how to build the component into
       schemes of work.</p>
-  </div>
+  </aside>
   <p>
 
     You can see the Change the Story Celebration website at
     <a href="https://stories.changethestory.eu" target="_blank">https://stories.changethestory.eu</a>
   </p>
-  </div>
 </section>
 
 <?php snippet('footer') ?>

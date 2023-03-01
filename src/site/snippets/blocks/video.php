@@ -3,7 +3,6 @@ use Kirby\Cms\Html;
 
 /** @var \Kirby\Cms\Block $block */
 ?>
-<figure>
 <?php if(str_contains($block->url(),'youtu')): ?>
 <?php
 $ytUrl = str_replace("https://","",$block->url());
@@ -22,12 +21,10 @@ else
     $ytId=$ytUrlVars['v'];
 }
 ?>
-
   <lite-youtube videoid="<?=$ytId?>" playlabel="<?=$block->caption()?>"></lite-youtube>
 <?php elseif ($video = Html::video($block->url())): ?>
   <?= $video ?>
 <?php endif ?>
 <?php if ($block->caption()->isNotEmpty()): ?>
-  <figcaption><?= $block->caption() ?></figcaption>
+  <p style="font-size:0.7em;"><?= $block->caption() ?></p>
 <?php endif ?>
-</figure>

@@ -1,93 +1,79 @@
 <?php snippet('header') ?>
-<h1 class="display-5 fw-bold pb-2 pt-0 text-center" style="color: darkred">
-  We do high quality digital work with our heads and our hearts
-</h1>
-<hr />
-<h2 class="text-center">What We Do</h2>
-<div class="row">
-  <div class="col">
-    <h3>Development</h3>
-    <p>Providing bespoke web development based on twenty years experience</p>
-    <p>
-      <a class="btn btn-primary" href="/development/">Find out more &raquo;</a>
-    </p>
+<h1 class="mission">We do high quality digital work with our heads and our hearts</h1>
+  <hr />
+  <h2 class="text-centre">What We Do</h2>
+  <div class="container mb-05">
+    <div>
+      <h3>Development</h3>
+      <p>Providing bespoke web development based on twenty years experience</p>
+      <p>
+        <a class="btn btn-primary" href="/development/">Find out more &raquo;</a>
+      </p>
+    </div>
+    <div>
+      <h3>Project Management</h3>
+      <p>
+        Delivering effective digital projects that make people happy
+      </p>
+      <p>
+        <a class="btn btn-primary" href="/project-management/">Find out more &raquo;</a>
+      </p>
+    </div>
+    <div>
+      <h3>Strategy</h3>
+      <p>
+        Creating a digital strategy for your business or charity, or helping to
+        change your processes
+      </p>
+      <p>
+        <a class="btn btn-primary" href="/strategy/">Find out more &raquo;</a>
+      </p>
+    </div>
+    <div>
+      <h3>Mentoring</h3>
+      <p>
+        Drawing on years of experience as a digital team leader to help develop
+        teams and individuals
+      </p>
+      <p>
+        <a class="btn btn-primary" href="/mentoring/">Find out more &raquo;</a>
+      </p>
+    </div>
   </div>
-  <div class="col">
-    <h3>Project Management</h3>
-    <p>
-      Delivering digital projects that make people happy and provide effective
-      results
-    </p>
-    <p>
-      <a class="btn btn-primary" href="/project-management/">Find out more &raquo;</a>
-    </p>
+  <hr />
+  <h2 class="text-center">How We Work</h2>
+  <div class="container mb-05">
+    <div>
+      
+      <h4><a href="#people"><img src="/assets/images/people_logo.svg" alt="" width="60" height="60" />
+        PEOPLE
+      </a></h4>
+      <strong>we focus first on making things better for
+        people</strong>
+      –
+      we don’t start with the technology, that comes later
+    </div>
+    <div>
+      <h4><a href="#craft"> <img src="/assets/images/craft_logo.svg" alt="" width=60" height="60" />
+        CRAFT
+      </a></h4>
+      <strong>we make digital things that are built to evolve and
+        flourish</strong>
+      – we don’t rush towards a short-term fix
+    </div>
+    <div>
+      
+      <h4><a href="#consideration"><img src="/assets/images/consideration_logo.svg" alt="" width="60" height="60" />
+        CONSIDERATION
+      </a></h4>
+      <strong>we think about the impact of the work we do
+        on the wider environment and
+        society</strong>
+      – we don’t make digital stuff in a vacuum
+    </div>
   </div>
-</div>
-<div class="row">
-  <div class="col">
-    <h3>Strategy and Consultancy</h3>
-    <p>
-      Creating a digital strategy for your business or charity, or helping to
-      change your processes
-    </p>
-    <p>
-      <a class="btn btn-primary" href="/strategy/">Find out more &raquo;</a>
-    </p>
-  </div>
-  <div class="col">
-    <h3>Leadership and Mentoring</h3>
-    <p>
-      Drawing on years of experience as a digital team leader to help develop
-      teams and individuals
-    </p>
-    <p>
-      <a class="btn btn-primary" href="/mentoring/">Find out more &raquo;</a>
-    </p>
-  </div>
-</div>
-<hr />
-<h2 class="text-center">How We Work</h2>
-<div class="row">
-  <div class="col-sm p-3 m-2 border border-pimary rounded-3" style="background-color: #e8e9dd">
-    <img src="/assets/images/people_logo.svg" alt="" width="42" height="42" />
-    <br />
-    <a href="#people">
-      <strong>PEOPLE</strong>
-    </a>
-    <br />
-    <strong>we focus first on making things better for
-      people</strong>
-    –
-    we don’t start with the technology, that comes later
-  </div>
-  <div class="col-sm p-3 m-2 border border-pimary rounded-3" style="background-color: #e8e9dd">
-    <img src="/assets/images/craft_logo.svg" alt="" width="42" height="42" />
-    <br />
-    <a href="#craft">
-      <strong>CRAFT</strong>
-    </a>
-    <br />
-    <strong>we make digital things that are built to evolve and
-      flourish</strong>
-    – we don’t rush towards a short-term fix
-  </div>
-  <div class="col-sm p-3 m-2 border border-pimary rounded-3" style="background-color: #e8e9dd">
-    <img src="/assets/images/consideration_logo.svg" alt="" width="42" height="42" />
-    <br />
-    <a href="#consideration">
-      <strong>CONSIDERATION</strong>
-    </a>
-    <br />
-    <strong>we think about the impact of the work we do
-      on the wider environment and
-      society</strong>
-    – we don’t make digital stuff in a vacuum
-  </div>
-</div>
-<hr />
-<div class="container bg-light p-3 m-2 border border-pimary rounded-3">
   <h3>
-    <img src="/assets/images/people_logo.svg" alt="" width="42" height="42" />
+    <img src="/assets/images/people_logo.svg" alt="" width="60" height="60" />
     <a id="people" name="people"></a>
     People
   </h3>
@@ -120,10 +106,9 @@
       you have everything you need to work with the stuff we've helped you make
     </li>
   </ul>
-</div>
-<div class="container bg-light p-3 m-2 border border-pimary rounded-3">
+
   <h3>
-    <img src="/assets/images/craft_logo.svg" alt="" width="42" height="42" />
+    <img src="/assets/images/craft_logo.svg" alt="" width="60" height="60" />
     <a id="craft" name="craft"></a>
     Craft
   </h3>
@@ -148,10 +133,8 @@
       a series of big, unexpected changes
     </li>
   </ul>
-</div>
-<div class="container bg-light p-3 m-2 border border-pimary rounded-3">
   <h3>
-    <img src="/assets/images/consideration_logo.svg" alt="" width="42" height="42" />
+    <img src="/assets/images/consideration_logo.svg" alt="" width="60" height="60" />
     <a id="consideration" name="consideration"></a>
     Consideration
   </h3>
@@ -186,6 +169,5 @@
       </ul>
     </li>
   </ul>
-</div>
 
-<?php snippet('footer') ?>
+  <?php snippet('footer') ?>
