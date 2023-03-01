@@ -1,7 +1,7 @@
 <?php if ($page->hasPrev()): ?>
-  <a class="btn btn-link m-2" href="<?= $page->prev()->url() ?>">← PREVIOUS <?=$page->prev()->title()?></a>
+  <a href="<?= $page->prev()->url() ?>">← PREVIOUS <?=$page->prev()->title()?></a>
 <?php else: ?>
-  <a class="btn btn-link m-2" href="<?= $page->parent()->url() ?>">← PREVIOUS <?=$page->parent()->title()?></a>
+  <a href="<?= $page->parent()->url() ?>">← PREVIOUS <?=$page->parent()->title()?></a>
 <?php endif ?>
 
 

@@ -82,15 +82,29 @@ select {
   --bg-dark: darkred;
   --color-light: white;
   --color-dark: darkred;
-  --font-family: "Lexend", system-ui, -apple-system, "Segoe UI", Roboto,
-  "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif,
-  "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-
+  --font-family: "iA Writer Mono S", monospace;
 }
 
 /** styles */
 
-body {
+@font-face {
+  font-display: swap;
+  font-family: iA Writer Mono S;
+  font-style: normal;
+  font-weight: 400;
+  src: url(/assets/fonts/iAWriterMonoS-Regular.woff2) format("woff2")
+}
+
+@font-face {
+  font-display: swap;
+  font-family: iA Writer Mono S;
+  font-style: normal;
+  font-weight: 700;
+  src: url(/assets/fonts/iAWriterMonoS-Bold.woff2) format("woff2")
+}
+
+body
+{
   font-family: var(--font-family);
 }
 
@@ -139,6 +153,7 @@ nav.breadcrumb
 nav.breadcrumb ol
 {
   display: flex;
+  flex-wrap: wrap;
   margin:0em;
   padding:0.5em;
   list-style:none;
@@ -150,14 +165,8 @@ nav.breadcrumb li:after
 	display: inline;
 	font-size: 1.2em;
 	color: darkgray;
-
-	padding: 0 .0725em 0 .15em;
 }
 
-nav.breadcrumb li:last-child:after
-{
-	content: '';
-}
 
 
 ul.menu
@@ -181,6 +190,11 @@ main
 h1,h2,h3
 {
   color:var(--color-dark);
+  margin-block-end: 1em;
+}
+
+p{
+  margin-block-end: 0.5em;
 }
 
 h1.mission
@@ -189,6 +203,8 @@ h1.mission
   font-weight:700;
   text-align:center;
 }
+
+
 
 article
 {
