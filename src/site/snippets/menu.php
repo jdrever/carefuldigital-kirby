@@ -5,7 +5,7 @@
   </div>
   <div>
     <a href="/" class="logo"><strong>CAREFUL DIGITAL</strong></a>
-    <a href="#menu" menu-toggle" class="menu-toggle" aria-label="Open the menu">
+    <a href="#menu" id="menu-toggle" class="menu-toggle" aria-label="Open the menu">
       <svg viewBox="0 0 100 80" width="40" height="40" aria-hidden="true">
         <rect fill="white" width="100" height="15"></rect>
         <rect fill="white" y="30" width="100" height="15"></rect>
