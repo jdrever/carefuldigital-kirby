@@ -105,6 +105,12 @@ header
   padding:1em;
 }
 
+a.logo
+{
+  color: var(--color-light);
+  text-decoration: none;
+}
+
 nav.main
 {
   display:none;

@@ -1,6 +1,6 @@
 <header>
   <div>
-    <a href="/"><img src="/assets/images/careful-digital-logo.svg" alt="Careful Digital logo: a circuit board heart"
+    <a href="/" class="logo"><img src="/assets/images/careful-digital-logo.svg" alt="Careful Digital logo: a circuit board heart"
         width="100" height="100">
       CAREFUL DIGITAL</a>
     <a id="menu-toggle" class="menu-toggle" aria-label="Open the menu" aria-hidden="true">
