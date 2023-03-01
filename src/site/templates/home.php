@@ -41,7 +41,7 @@
     </div>
   </div>
   <hr />
-  <h2 class="text-center">How We Work</h2>
+  <h2 class="text-centre">How We Work</h2>
   <div class="container mb-05">
     <div>
       

@@ -6,7 +6,7 @@
 
 
 <?php if (isset($taskButton)) : ?>
-  <button type="submit" class="btn btn-primary float-end"><?=$taskButton?> <i class="bi bi-arrow-right"></i></button>
+  <button type="submit" class="btn"><?=$taskButton?> →</button>
 <?php else : ?>
   <?php if ($page->hasChildren()): ?>
     <a class="btn btn-primary m-2" href="<?= $page->children()->first()->url() ?>" role="button">
