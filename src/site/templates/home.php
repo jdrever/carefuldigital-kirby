@@ -80,7 +80,7 @@
 
     We're careful to focus first on making things better for people
     <span>
-      – we don’t start with the technology, that comes later.</span>
+      – we don’t start with the technology, that comes later.
   </p>
   <p>We:</p>
   <ul>
