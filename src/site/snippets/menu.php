@@ -5,8 +5,8 @@
   </div>
   <div>
     <a href="/" class="logo"><strong>CAREFUL DIGITAL</strong></a>
-    <a id="menu-toggle" class="menu-toggle" aria-label="Open the menu" aria-hidden="true">
-      <svg viewBox="0 0 100 80" width="40" height="40">
+    <a href="#menu" menu-toggle" class="menu-toggle" aria-label="Open the menu">
+      <svg viewBox="0 0 100 80" width="40" height="40" aria-hidden="true">
         <rect fill="white" width="100" height="15"></rect>
         <rect fill="white" y="30" width="100" height="15"></rect>
         <rect fill="white" y="60" width="100" height="15"></rect>
@@ -14,6 +14,7 @@
     </a>
   </div>
   <nav class="main">
+    <a id="menu"></a>
     <div id="company-menu">
       <a href="/"><strong>Company</strong></a>
       <ul class="menu">

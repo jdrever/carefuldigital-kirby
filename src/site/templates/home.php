@@ -44,28 +44,27 @@
   <h2 class="text-centre">How We Work</h2>
   <div class="container mb-05">
     <div>
-      
-      <h4><a href="#people"><img src="/assets/images/people_logo.svg" alt="" width="60" height="60" />
+      <h3><a href="#people"><img src="/assets/images/people_logo.svg" alt="" width="60" height="60" />
         PEOPLE
-      </a></h4>
+      </a></h3>
       <strong>we focus first on making things better for
         people</strong>
       –
       we don’t start with the technology, that comes later
     </div>
     <div>
-      <h4><a href="#craft"> <img src="/assets/images/craft_logo.svg" alt="" width=60" height="60" />
+      <h3><a href="#craft"> <img src="/assets/images/craft_logo.svg" alt="" width=60" height="60" />
         CRAFT
-      </a></h4>
+      </a></h3>
       <strong>we make digital things that are built to evolve and
         flourish</strong>
       – we don’t rush towards a short-term fix
     </div>
     <div>
       
-      <h4><a href="#consideration"><img src="/assets/images/consideration_logo.svg" alt="" width="60" height="60" />
+      <h3><a href="#consideration"><img src="/assets/images/consideration_logo.svg" alt="" width="60" height="60" />
         CONSIDERATION
-      </a></h4>
+      </a></h3>
       <strong>we think about the impact of the work we do
         on the wider environment and
         society</strong>
