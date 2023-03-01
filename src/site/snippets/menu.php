@@ -14,7 +14,7 @@
     </a>
   </div>
   <nav class="main">
-    <a name="menu"></a>
+    <a id="menu" name="menu"></a>
     <div id="company-menu">
       <a href="/"><strong>Company</strong></a>
       <ul class="menu">

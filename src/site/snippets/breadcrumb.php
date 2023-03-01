@@ -1,4 +1,3 @@
-
 <nav class="breadcrumb" aria-label="breadcrumb">
     <ol role="list">
     <?php foreach($site->breadcrumb() as $crumb): ?>
@@ -8,5 +7,5 @@
     <?php endforeach ?>
   </ol>
 </nav>
-</div>
+
 

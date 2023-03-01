@@ -1,6 +1,6 @@
 <?php snippet('header') ?>
 <h1 class="mission">We do high quality digital work with our heads and our hearts</h1>
-  <hr />
+  <hr>
   <h2 class="text-centre">What We Do</h2>
   <div class="container mb-05">
     <div>
@@ -40,11 +40,11 @@
       </p>
     </div>
   </div>
-  <hr />
+  <hr>
   <h2 class="text-centre">How We Work</h2>
   <div class="container mb-05">
     <div>
-      <h3><a href="#people"><img src="/assets/images/people_logo.svg" alt="" width="60" height="60" />
+      <h3><a href="#people"><img src="/assets/images/people_logo.svg" alt="" width="60" height="60" >
         PEOPLE
       </a></h3>
       <strong>we focus first on making things better for
@@ -53,7 +53,7 @@
       we don’t start with the technology, that comes later
     </div>
     <div>
-      <h3><a href="#craft"> <img src="/assets/images/craft_logo.svg" alt="" width=60" height="60" />
+      <h3><a href="#craft"> <img src="/assets/images/craft_logo.svg" alt="" width="60" height="60" >
         CRAFT
       </a></h3>
       <strong>we make digital things that are built to evolve and
@@ -62,7 +62,7 @@
     </div>
     <div>
       
-      <h3><a href="#consideration"><img src="/assets/images/consideration_logo.svg" alt="" width="60" height="60" />
+      <h3><a href="#consideration"><img src="/assets/images/consideration_logo.svg" alt="" width="60" height="60" >
         CONSIDERATION
       </a></h3>
       <strong>we think about the impact of the work we do
@@ -72,7 +72,7 @@
     </div>
   </div>
   <h3>
-    <img src="/assets/images/people_logo.svg" alt="" width="60" height="60" />
+    <img src="/assets/images/people_logo.svg" alt="" width="60" height="60" >
     <a id="people" name="people"></a>
     People
   </h3>
@@ -107,7 +107,7 @@
   </ul>
 
   <h3>
-    <img src="/assets/images/craft_logo.svg" alt="" width="60" height="60" />
+    <img src="/assets/images/craft_logo.svg" alt="" width="60" height="60" >
     <a id="craft" name="craft"></a>
     Craft
   </h3>
@@ -133,7 +133,7 @@
     </li>
   </ul>
   <h3>
-    <img src="/assets/images/consideration_logo.svg" alt="" width="60" height="60" />
+    <img src="/assets/images/consideration_logo.svg" alt="" width="60" height="60" >
     <a id="consideration" name="consideration"></a>
     Consideration
   </h3>
