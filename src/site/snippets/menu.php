@@ -16,13 +16,13 @@
       <a href="/"><strong>Company</strong></a>
       <ul class="menu">
         <li>
-          <a href="/projects/" class="nav-link px-2 text-white">Projects</a>
+          <a href="/projects/">Projects</a>
         </li>
         <li>
-          <a href="/testimonials/" class="nav-link px-2 text-white">Testimonials</a>
+          <a href="/testimonials/">Testimonials</a>
         </li>
         <li>
-          <a href="/contact/" class="nav-link px-2 text-white">Contact</a>
+          <a href="/contact/">Contact</a>
         </li>
       </ul>
     </div>
