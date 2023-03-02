@@ -79,7 +79,6 @@
   <p>
 
     We're careful to focus first on making things better for people
-    <span>
       – we don’t start with the technology, that comes later.
   </p>
   <p>We:</p>
@@ -114,7 +113,7 @@
   <p>
 
     We carefully make digital things that are built to evolve and flourish – we don’t rush towards a
-    short-term fix</span>
+    short-term fix
   </p>
   <p>We:</p>
   <ul>
@@ -140,8 +139,7 @@
   <p>
 
     We're careful to think about the impact of our work on the wider environment
-    and society
-    <span> – we don’t make digital stuff in a vacuum</span>
+    and society – we don’t make digital stuff in a vacuum
   </p>
   <p>We:</p>
   <ul>
