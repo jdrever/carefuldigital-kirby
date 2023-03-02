@@ -3,7 +3,7 @@
 return function ($kirby, $page)
 {
   $taskComplete=false;
-  $allIntentions = [];
+  $allIntentions=$page->children();
 
   if ($kirby->request()->is('POST'))
   {
@@ -48,9 +48,6 @@ return function ($kirby, $page)
           $alert['error'] = 'The form could not be sent!';
       endif;
     }
-
-
-    $allIntentions=$page->children();
 
     $taskComplete=true;
   }

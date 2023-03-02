@@ -6,4 +6,5 @@
 <?php else : ?>
 <?php snippet('guide-tasks/introductions-done') ?>  
 <?php endif ?>
+<?php snippet('guide-tasks/see-introductions') ?>
 <?php snippet('footer') ?>
