@@ -34,7 +34,8 @@ return function ($kirby, $page)
           'to'       => 'james@careful.digital',
           'subject'  => 'You have an Introduction to check from a guide',
           'data'     => [
-              'text' => 'Intentions:' . $intentions,
+            'sender' => 'james@careful.digital',
+            'text' => 'Intentions:' . $intentions,
           ]
       ]);
     }
