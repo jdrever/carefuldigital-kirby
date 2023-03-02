@@ -112,18 +112,19 @@ body
 header
 {
   margin:0em;
-  background-color: var(--bg-dark);
+  background-color: var(--color-light);
   display:flex;
   flex-direction: column;
-  color: var(--color-light);
+  color: var(--bg-dark);
   gap:2em;
   padding:1em;
-  font-size:1.1em;
+  border-bottom: 5px solid var(--bg-dark);
+  font-size:1.2em;
 }
 
 a.logo
 {
-  color: var(--color-light);
+  color: var(--bg-dark);
   text-decoration: none;
   font-family: var(--font-family-bold);
   font-size: 1.2em;
@@ -134,11 +135,11 @@ nav.main
   display:none;
 }
 
-
 nav.main a
 {
-  color: var(--color-light);
+  color: var(--bg-dark);
   text-decoration: none;
+  font-family: var(--font-family-bold);
 }
 
 nav.main a:hover, a.logo:hover
@@ -148,14 +149,13 @@ nav.main a:hover, a.logo:hover
 
 .menu-toggle
 {
-  color:white;
+  color: var(--bg-dark);
   margin:1em;
   cursor: pointer;
 }
 
 nav.breadcrumb
 {
-
   margin:0em;
   background-color: var(--bg-light);
 }
@@ -184,7 +184,7 @@ ul.menu
   display:flex;
   flex-direction: column;
   margin:0em;
-  padding:0.5em 0.5em;
+  padding:0.5em 0em;
   gap:0.5em;
   list-style: none;
 }
