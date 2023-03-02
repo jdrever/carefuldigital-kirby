@@ -73,7 +73,7 @@
   </div>
   <h3>
     <img src="/assets/images/people_logo.svg" alt="" width="60" height="60" >
-    <a id="people" name="people"></a>
+    <a id="people"></a>
     People
   </h3>
   <p>
@@ -107,7 +107,7 @@
 
   <h3>
     <img src="/assets/images/craft_logo.svg" alt="" width="60" height="60" >
-    <a id="craft" name="craft"></a>
+    <a id="craft"></a>
     Craft
   </h3>
   <p>
@@ -133,7 +133,7 @@
   </ul>
   <h3>
     <img src="/assets/images/consideration_logo.svg" alt="" width="60" height="60" >
-    <a id="consideration" name="consideration"></a>
+    <a id="consideration"></a>
     Consideration
   </h3>
   <p>
