@@ -82,25 +82,25 @@ select {
   --bg-dark: darkred;
   --color-light: white;
   --color-dark: darkred;
-  --font-family: "iA Writer Mono S", monospace;
+  --font-family: "Source Sans Pro", monospace;
 }
 
 /** styles */
 
 @font-face {
   font-display: swap;
-  font-family: iA Writer Mono S;
+  font-family: "Source Sans Pro";
   font-style: normal;
   font-weight: 400;
-  src: url(/assets/fonts/iAWriterMonoS-Regular.woff2) format("woff2")
+  src: url(/assets/fonts/iAWriterQuattroS-Regular.woff2) format("woff2")
 }
 
 @font-face {
   font-display: swap;
-  font-family: iA Writer Mono S;
+  font-family: "Source Serif Pro";
   font-style: normal;
   font-weight: 700;
-  src: url(/assets/fonts/iAWriterMonoS-Bold.woff2) format("woff2")
+  src: url(/assets/fonts/iAWriterQuattroS-Bold.woff2) format("woff2")
 }
 
 body
