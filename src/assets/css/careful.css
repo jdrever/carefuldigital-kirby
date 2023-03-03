@@ -214,6 +214,11 @@ p{
   font-size:1.1em;
 }
 
+p.lead
+{
+  font-size:1.3em;
+}
+
 h1.mission
 {
   font-size: 3rem;
