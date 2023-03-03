@@ -2,8 +2,10 @@
 
 return [
     'debug'  => true,
-    'pages' => [
-      'active' => true,
+    'cache' => [
+      'pages' => [
+        'active' => true,
+      ]
     ],
     'panel' =>
     [
