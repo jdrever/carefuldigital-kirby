@@ -12,7 +12,7 @@
   James has been working on the web since 1997. Over that time, he has built up
   considerable technical expertise, but also an understanding of what works, and
   what is important. He has developed a series of sites
-  using the <a href="https://www.11ty.dev/">11ty</a> static site generator but has a
+  using <a href="https://getkirby.com"></a>Kirby CMS and the <a href="https://www.11ty.dev/">11ty</a> static site generator but has a
   full understanding of all aspects of web development, and is happy to use
   whatever tools are appropriate to the job at hand.
 </p>
@@ -26,17 +26,9 @@
   </li>
   <li>
     focusing super-hard on performance -
-    <a href="/services/website-performance/"
-      >find out more about how we make faster websites.</a
-    >
   </li>
 </ul>
-<p>
-  <a href="/services/website-process/"
-    >Find out more about the process of working with Careful Digital to build or
-    refine a website</a
-  >
-</p>
+
 <h3>Examples of our work</h3>
 <section class="case-study">
   <h5>Change the Story (2020)</h5>
