@@ -214,10 +214,13 @@ p{
   font-size:1.1em;
 }
 
-p.lead
+div.lead
 {
   font-size:1.3em;
   font-weight: 700;
+  background-color: var(--bg-light);
+  padding:0.5em;
+  margin:0.5em 0em;
 }
 
 h1.mission
