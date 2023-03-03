@@ -82,8 +82,10 @@ select {
   --bg-dark: darkred;
   --color-light: white;
   --color-dark: darkred;
-  --font-family: "IAWriter Quattro", monospace;
-  --font-family-bold: "Source Sans Pro";
+  --font-family: "IAWriter Quattro", arial, sans-serif;
+  --font-family-bold: "IAWriter Quattro", arial, sans-serif;
+  --font-family-italics: "IAWriter Quattro", arial, sans-serif;
+  --font-family-heading: "Source Sans Pro",arial, sans-serif;
 }
 
 /** styles */
@@ -94,6 +96,22 @@ select {
   font-style: normal;
   font-weight: 400;
   src: url(/assets/fonts/iAWriterQuattroS-Regular.woff2) format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "IAWriter Quattro Bold";
+  font-style: normal;
+  font-weight: 700;
+  src: url(/assets/fonts/iAWriterQuattroS-Bold.woff2) format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "IAWriter Quattro Italic";
+  font-style: normal;
+  font-weight: 400;
+  src: url(/assets/fonts/iAWriterQuattroS-Italic.woff2) format("woff2");
 }
 
 @font-face {
@@ -187,7 +205,7 @@ h2,
 h3 {
   color: var(--color-dark);
   margin-block-end: 0.75em;
-  font-family: var(--font-family-bold);
+  font-family: var(--font-family-heading);
 }
 
 h1 img {
@@ -210,6 +228,18 @@ h1.mission {
   font-size: 3rem;
   font-weight: 700;
   text-align: center;
+}
+
+em {
+  font-family: var(--font-family-italics);
+  font-weight: normal;
+  font-style: normal;
+}
+
+strong {
+  font-family: var(--font-family-bold);
+  font-weight: normal;
+  font-style: normal;
 }
 
 article {
