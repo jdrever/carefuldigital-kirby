@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>The Careful Digital Website and Commons: <?=$page->title() ?></title>
+  <title>Careful Digital: <?=$page->title() ?></title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="description" content="A website by Careful Digital which provides resources about using technology intentionally">
   <meta name="author" content="James Drever, Careful Digital">
