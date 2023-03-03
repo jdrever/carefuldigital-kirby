@@ -2,6 +2,9 @@
 
 return [
     'debug'  => true,
+    'pages' => [
+      'active' => true,
+    ],
     'panel' =>
     [
       'install' => true,
