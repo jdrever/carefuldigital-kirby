@@ -315,6 +315,11 @@ footer {
   margin-bottom: 10px;
 }
 
+.card-content p
+{
+  font-size:1em;
+}
+
 .btn,
 .card-button {
   background-color: black;
