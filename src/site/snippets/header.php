@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <title>The Careful Digital Website and Commons: <?=$page->title() ?></title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="A website by the Careful Digital which provides resources about using technology intentionally">
+  <meta name="description" content="A website by Careful Digital which provides resources about using technology intentionally">
   <meta name="author" content="James Drever, Careful Digital">
   <!-- Fathom - beautiful, simple website analytics -->
   <script src="https://carefuld-fathom-usage-stats.careful.digital/script.js" data-site="PUGDMEZB" defer></script>
