@@ -22,8 +22,8 @@ dd {
 }
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
-ul[role='list'],
-ol[role='list'] {
+ul[role="list"],
+ol[role="list"] {
   list-style: none;
 }
 
@@ -62,7 +62,7 @@ select {
 /* Remove all animations, transitions and smooth scroll for people that prefer not to see them */
 @media (prefers-reduced-motion: reduce) {
   html:focus-within {
-   scroll-behavior: auto;
+    scroll-behavior: auto;
   }
 
   *,
@@ -93,7 +93,7 @@ select {
   font-family: "IAWriter Quattro";
   font-style: normal;
   font-weight: 400;
-  src: url(/assets/fonts/iAWriterQuattroS-Regular.woff2) format("woff2")
+  src: url(/assets/fonts/iAWriterQuattroS-Regular.woff2) format("woff2");
 }
 
 @font-face {
@@ -101,163 +101,140 @@ select {
   font-family: "Source Sans Pro";
   font-style: normal;
   font-weight: 700;
-  src: url(/assets/fonts/SourceSans3-Bold.ttf.woff2) format("woff2")
+  src: url(/assets/fonts/SourceSans3-Bold.ttf.woff2) format("woff2");
 }
 
-body
-{
+body {
   font-family: var(--font-family);
 }
 
-header
-{
-  margin:0em;
+header {
+  margin: 0em;
   background-color: var(--bg-dark);
-  display:flex;
+  display: flex;
   flex-direction: column;
   color: var(--color-light);
-  gap:2em;
-  padding:1em;
-  font-size:1.1em;
+  gap: 2em;
+  padding: 1em;
+  font-size: 1.1em;
 }
 
-a.logo
-{
+a.logo {
   color: var(--color-light);
   text-decoration: none;
   font-family: var(--font-family-bold);
   font-size: 1.2em;
 }
 
-nav.main
-{
-  display:none;
+nav.main {
+  display: none;
 }
 
-
-nav.main a
-{
+nav.main a {
   color: var(--color-light);
   text-decoration: none;
 }
 
-nav.main a:hover, a.logo:hover
-{
+nav.main a:hover,
+a.logo:hover {
   text-decoration: underline;
 }
 
-.menu-toggle
-{
-  color:white;
-  margin:1em;
+.menu-toggle {
+  color: white;
+  margin: 1em;
   cursor: pointer;
 }
 
-nav.breadcrumb
-{
-
-  margin:0em;
+nav.breadcrumb {
+  margin: 0em;
   background-color: var(--bg-light);
 }
 
-nav.breadcrumb ol
-{
+nav.breadcrumb ol {
   display: flex;
   flex-wrap: wrap;
-  margin:0em;
-  padding:0.5em;
-  list-style:none;
-}
-
-nav.breadcrumb li:after
-{
-	content: '›';
-	display: inline;
-	font-size: 1.2em;
-	color: darkgray;
-}
-
-
-
-ul.menu
-{
-  display:flex;
-  flex-direction: column;
-  margin:0em;
-  padding:0.5em 0.5em;
-  gap:0.5em;
+  margin: 0em;
+  padding: 0.5em;
   list-style: none;
 }
 
-main
-{
-  max-width:900px;
-  margin-right: auto;
-  margin-left:auto;
-  padding:0.5em;
+nav.breadcrumb li:after {
+  content: "›";
+  display: inline;
+  font-size: 1.2em;
+  color: darkgray;
 }
 
-h1,h2,h3
-{
-  color:var(--color-dark);
+ul.menu {
+  display: flex;
+  flex-direction: column;
+  margin: 0em;
+  padding: 0.5em 0.5em;
+  gap: 0.5em;
+  list-style: none;
+}
+
+main {
+  max-width: 900px;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0.5em;
+}
+
+h1,
+h2,
+h3 {
+  color: var(--color-dark);
   margin-block-end: 0.75em;
   font-family: var(--font-family-bold);
 }
 
-h1 img
-{
+h1 img {
   display: inline-block;
 }
 
-p{
+p {
   margin-block-end: 0.5em;
 }
 
-div.lead
-{
-  font-size:1.3em;
+div.lead {
+  font-size: 1.3em;
   font-weight: 700;
   background-color: var(--bg-light);
-  padding:0.5em;
-  margin:0.5em 0em;
+  padding: 0.5em;
+  margin: 0.5em 0em;
 }
 
-h1.mission
-{
+h1.mission {
   font-size: 3rem;
-  font-weight:700;
-  text-align:center;
+  font-weight: 700;
+  text-align: center;
 }
 
-
-
-article
-{
-  padding:1em;
-  margin:1em;
+article {
+  padding: 1em;
+  margin: 1em;
   background-color: var(--bg-light);
 }
 
-section
-{
+section {
   border-bottom: 1px solid black;
-  padding-bottom:1em;
+  padding-bottom: 1em;
   margin: 1em 0em;
 }
 
-aside
-{
-  padding:1em;
+aside {
+  padding: 1em;
   background-color: var(--bg-light);
   border-radius: 2em;
-
 }
 
 figure {
   display: flex;
   flex-flow: row;
   justify-content: flex-start;
-  margin:2em;
+  margin: 2em;
 }
 
 figure img {
@@ -272,65 +249,56 @@ figcaption {
   width: 25vw;
 }
 
-
-section.case-study p.technical
-{
-    font-size:0.9em;
-    font-style: italic;
+section.case-study p.technical {
+  font-size: 0.9em;
+  font-style: italic;
 }
 
-section.case-study figure
-{
+section.case-study figure {
   display: flex;
   justify-content: center;
 }
 
-section.case-study figcaption
-{
-  display:block;
-  width:100%;
+section.case-study figcaption {
+  display: block;
+  width: 100%;
   text-align: center;
 }
 
-
-.form-label
-{
-  display:block;
+.form-label {
+  display: block;
 }
 
-.form-item
-{
-  display:block;
-  margin:1em;
-  width:90%;
+.form-item {
+  display: block;
+  margin: 1em;
+  width: 90%;
 }
 
-footer
-{
-  padding:0.5em;
+footer {
+  padding: 0.5em;
   background-color: var(--bg-light);
 }
 
 /** utlity classes */
 
-.text-centre
-{
+.text-centre {
   text-align: center;
 }
 
-.container
-{
-  display:flex;
+.container {
+  display: flex;
   flex-direction: column;
-  gap:0.75em;
+  gap: 0.75em;
 }
 
-.container > * { flex: 1; }
+.container > * {
+  flex: 1;
+}
 
 .card-group {
   display: flex;
-  flex-direction:column;
-
+  flex-direction: column;
 }
 .card-container {
   background-color: #fff;
@@ -347,9 +315,10 @@ footer
   margin-bottom: 10px;
 }
 
-.btn, .card-button {
+.btn,
+.card-button {
   background-color: black;
-  color:var(--color-light);
+  color: var(--color-light);
   border-radius: 0.375rem;
   text-decoration: none;
 }
@@ -360,84 +329,67 @@ footer
   cursor: pointer;
   width: 100%;
   margin-top: auto;
-  text-align:center;
-
+  text-align: center;
 }
 
-.card-button:hover, .btn:hover
-{
+.card-button:hover,
+.btn:hover {
   background-color: var(--bg-dark);
 }
 
-
-.btn
-{
-  display:inline-block;
-  padding:0.5em;
-  margin:0.5em 0em;
+.btn {
+  display: inline-block;
+  padding: 0.5em;
+  margin: 0.5em 0em;
 }
 
-.mb-05
-{
+.mb-05 {
   margin-bottom: 2em;
 }
 
-.topyenoh
-{
+.topyenoh {
   position: absolute;
   left: -9999px;
 }
 
 @media (min-width: 914px) {
-
-  p
-  {
-    font-size:1.4em;
+  p {
+    font-size: 1.4em;
   }
 
-  h1
-  {
-    font-size:2.8em;
+  h1 {
+    font-size: 2.8em;
   }
 
-  h2
-  {
-    font-size:2em;
+  h2 {
+    font-size: 2em;
   }
 
-  ul
-  {
-    font-size:1.3em;
+  ul {
+    font-size: 1.3em;
   }
 
-  ul.menu
-  {
-    font-size:1em;
+  ul.menu {
+    font-size: 1em;
   }
 
-  nav.main
-  {
-    display:flex;
-    gap:1em;
+  nav.main {
+    display: flex;
+    gap: 1em;
   }
 
-
-
-  ul.menu
-  {
+  ul.menu {
     flex-direction: row;
   }
 
-  .menu-toggle
-  {
-    display:none;
+  .menu-toggle {
+    display: none;
   }
 
-  header{
+  header {
     flex-direction: row;
   }
-  .container
-  {
+  .container {
     flex-direction: row;
   }
   .card-group {
@@ -446,4 +398,3 @@ footer
     flex-direction: row;
   }
 }
-
