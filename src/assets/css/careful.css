@@ -100,16 +100,16 @@ select {
 
 @font-face {
   font-display: swap;
-  font-family: "IAWriter Quattro Bold";
-  font-style: normal;
+  font-family: "IAWriter Quattro";
+  font-style: bold;
   font-weight: 700;
   src: url(/assets/fonts/iAWriterQuattroS-Bold.woff2) format("woff2");
 }
 
 @font-face {
   font-display: swap;
-  font-family: "IAWriter Quattro Italic";
-  font-style: normal;
+  font-family: "IAWriter Quattro";
+  font-style: italic;
   font-weight: 400;
   src: url(/assets/fonts/iAWriterQuattroS-Italic.woff2) format("woff2");
 }
