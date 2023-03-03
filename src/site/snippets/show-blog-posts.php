@@ -9,7 +9,7 @@ if (count($posts)>0) :
 <?php foreach ($posts as $post) :  ?>
 <h2><?= $post->title() ?></h2>
 <p><strong><?= $post->publishedDate() ?></strong></p>
-<p><?= $post->openingContent() ?>
+<p><?= $post->openingContent()->kt() ?>
   <p><a href="<?=$post->url()?>" class="btn">READ MORE &rarr;</a></p>
   <?php endforeach ?>
 

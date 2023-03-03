@@ -211,7 +211,6 @@ h1 img
 
 p{
   margin-block-end: 0.5em;
-  font-size:1.1em;
 }
 
 div.lead
@@ -390,6 +389,31 @@ footer
 }
 
 @media (min-width: 914px) {
+
+  p
+  {
+    font-size:1.4em;
+  }
+
+  h1
+  {
+    font-size:2.8em;
+  }
+
+  h2
+  {
+    font-size:2em;
+  }
+
+  ul
+  {
+    font-size:1.3em;
+  }
+
+  ul.menu
+  {
+    font-size:1em;
+  }
 
   nav.main
   {
