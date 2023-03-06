@@ -4,24 +4,27 @@
   Careful Digital are currently partners on two European Union Erasmus Plus funded environmental education projects:
   <a href="#natent">Natural Entrepreneurs</a>
   and
-  <a href="#cts">Change the Story</a>
-  .
+  <a href="#cts">Change the Story</a>.
   We are working with a major environmental education charity to develop their reporting infrastructure, helping a
   national health research charity with their organisation-wide digital transformation strategy, and have
   developed a website with the
   <a href="shropbot">Shropshire Botanical Society</a>
   to allow access to their biodiversity data.
 </p>
+
 <section class="case-study">
-  <h2>Nature Memory</h2>
+  <h2>Nature Writing Workshops</h2>
   <p class="lead">
-    We are starting to research and prototype a project called Nature Memory. Nature Memory will provide a way to build
-    meaningful community links for schools, develop learning between the generations and make memories to share.
+  Little Bird Said offers learners the opportunity to meet in urban community settings to engage with nature and develop more confidence as speakers, listeners, and writers. 
+Through the use of venue gardens, photography, discussion and short writing tasks, it encourages participants to identify species and combine botanical knowledge with literary techniques to produce short, compelling pieces of writing.</p>
+  <p>
+    <a href="/assets/documents/Careful Digital Little Bird Said Nature Writing Workshops.pdf" class="btn">Find out more</a>
   </p>
   <p>
-    <a href="/projects/nature-memory/" class="btn btn-primary btn-sm">Find out more</a>
+    <a href="https://events.hiveonline.org.uk/whats-on/nature-writing/" class="btn">Book online</a>
   </p>
 </section>
+
 <section class="case-study">
   <h2>Intentional Technology</h2>
   <p class="lead">
@@ -31,6 +34,17 @@
     guides individuals through these questions and helps find the best answers for them.</p>
   <p>
     <a href="/projects/intentional-technology/" class="btn btn-primary btn-sm">Find out more</a>
+  </p>
+</section>
+
+<section class="case-study">
+  <h2>Nature Memory</h2>
+  <p class="lead">
+    We are starting to research and prototype a project called Nature Memory. Nature Memory will provide a way to build
+    meaningful community links for schools, develop learning between the generations and make memories to share.
+  </p>
+  <p>
+    <a href="/projects/nature-memory/" class="btn btn-primary btn-sm">Find out more</a>
   </p>
 </section>
 <a id="shropbot"></a>
