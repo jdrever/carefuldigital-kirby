@@ -1,20 +1,34 @@
-<?php if ($page->hasPrev()): ?>
-  <a href="<?= $page->prev()->url() ?>">← PREVIOUS: <?=$page->prev()->title()?></a>
-<?php else: ?>
-  <a href="<?= $page->parent()->url() ?>">← PREVIOUS: <?=$page->parent()->title()?></a>
-<?php endif ?>
+<?php 
+$collection = $kirby->collection("guides-content");
 
+if ($page->prev($collection))
+{
+  $previousPage=$page->prev($collection);
+}
 
-<?php if (isset($taskButton)) : ?>
-  <button type="submit" class="btn"><?=$taskButton?> →</button>
-<?php else : ?>
-  <?php if ($page->hasChildren()): ?>
-    <a class="btn btn-primary m-2" href="<?= $page->children()->first()->url() ?>" role="button">
-          NEXT:  <?=$page->children()->first()->title()?> →
-    </a>
-  <?php elseif ($page->hasNext()): ?>
-    <a class="btn btn-primary m-2" href="<?= $page->next()->url() ?>" role="button">
-          NEXT: <?= $page->next()->title() ?>  →
-    </a>
+if(!isset($taskButton))
+{
+  if ($next = $page->next($collection)) 
+  {
+    $nextPage=$page->next($collection);
+  }
+}
+?>
+
+<?php if (isset($previousPage)||isset($nextPage)||isset($taskButton)) : ?>
+  <div class="container" style="align-items:center;">
+    <div>
+  <?php if (isset($previousPage)) : ?>
+<a href="<?= $previousPage->url() ?>"><i class="bi bi-arrow-left"></i> <?=t('PREVIOUS','PREVIOUS')?>: <?=$previousPage->title()?></a>
   <?php endif ?>
+  <?php if (isset($nextPage)&&!in_array($nextPage->template(), array('country','team-page'))) : ?>
+<a class="btn" href="<?= $nextPage->url() ?>"><?=t('NEXT','NEXT')?>: <?=$nextPage->title()?> <i class="bi bi-arrow-right"></i></a>
+  <?php endif ?>
+  <?php if (isset($taskButton)) : ?>
+    <button type="submit" class="btn"><?=$taskButton?> <i class="bi bi-arrow-right"></i></button>
+  <?php endif ?>
+  </div>
 <?php endif ?>
+</div>
+</div>
+

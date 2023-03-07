@@ -1,0 +1,12 @@
+icon: map
+label: Route
+fields:
+  title:
+    label: Title
+    type: text
+  destination:
+    label: Destination
+    type: pages
+    multiple: true
+    query: site.index.filterBy('template', 'in', ['guide-section'])
+

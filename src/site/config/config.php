@@ -4,7 +4,7 @@ return [
   'debug'  => $_SERVER['HTTP_HOST'] == 'localhost:8081' ? true : false,
   'cache' => [
     'pages' => [
-      'active' => true,
+      'active' => $_SERVER['HTTP_HOST'] == 'localhost:8081' ? false : true,
     ]
   ],
   'panel' =>

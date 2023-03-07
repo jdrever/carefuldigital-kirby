@@ -10,6 +10,7 @@ fieldsets:
       - text
       - list
       - activity
+      - route
   media:
     label: Media
     type: group
