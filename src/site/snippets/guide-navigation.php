@@ -24,6 +24,8 @@ if(!isset($taskButton))
   <?php if (isset($previousPage)) : ?>
 <a href="<?= $previousPage->url() ?>"><i class="bi bi-arrow-left"></i> <?=t('PREVIOUS','PREVIOUS')?>: <?=$previousPage->title()?></a>
   <?php endif ?>
+    </div>
+    <div>
   <?php if (isset($nextPage)&&!in_array($nextPage->template(), array('country','team-page'))) : ?>
 <a class="btn" href="<?= $nextPage->url() ?>"><?=t('NEXT','NEXT')?>: <?=$nextPage->title()?> <i class="bi bi-arrow-right"></i></a>
   <?php endif ?>
