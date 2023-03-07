@@ -311,6 +311,19 @@ footer {
   background-color: var(--bg-light);
 }
 
+footer div.main
+{
+    max-width: 900px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0.5em;
+}
+
+footer p
+{
+  font-size:1em;
+}
+
 /** utlity classes */
 
 .text-centre {
