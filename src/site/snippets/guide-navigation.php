@@ -8,9 +8,12 @@ if ($page->prev($collection))
 
 if(!isset($taskButton))
 {
-  if ($next = $page->next($collection)) 
+  if ($page->mainContent()->toBlocks()->hasType('route')===false)
   {
-    $nextPage=$page->next($collection);
+    if ($next = $page->next($collection)) 
+    {
+      $nextPage=$page->next($collection);
+    }
   }
 }
 ?>
