@@ -66,7 +66,7 @@
   </div>
   <div class="card-container">
     <div class="card-content">
-      <h3><img src="/assets/images/consideration_logo.svg" alt="" width="60" height="60">Consideration</h3>
+      <h3><img src="/assets/images/consideration_logo.svg" alt="" width="60" height="60">Care</h3>
       <p>
         We think about the impact of the work we do on the wider environment and society – we don’t work
         in a vacuum
