@@ -1,5 +1,7 @@
 <?php snippet('header') ?>
-<h1 class="mission">We do high quality digital work with our heads and our hearts</h1>
+
+<h1 class="text-centre">We do high quality digital work with our heads and our hearts</h1>
+
 <hr>
 <h2 class="text-centre">What We Do</h2>
 <div class="card-group">
@@ -34,7 +36,7 @@
     <div class="card-content">
       <h3>Mentoring</h3>
       <p>
-        Drawing on years of experience as a digital team leader to help develop teams and individuals
+        Drawing on years of experience to help develop teams and individuals
       </p>
     </div>
     <a class="card-button" href="/mentoring/">Find out more</a>
@@ -43,7 +45,7 @@
 
 <hr>
 <h2 class="text-centre">How We Work</h2>
-<div class="card-group">
+<div class="card-group-sm">
   <div class="card-container">
     <div class="card-content">
       <h3><img src="/assets/images/people_logo.svg" alt="" width="60" height="60">People</h3>
@@ -66,7 +68,7 @@
     <div class="card-content">
       <h3><img src="/assets/images/consideration_logo.svg" alt="" width="60" height="60">Consideration</h3>
       <p>
-        We think about the impact of the work we do on the wider environment and society – we don’t make digital stuff
+        We think about the impact of the work we do on the wider environment and society – we don’t work
         in a vacuum
       </p>
     </div>

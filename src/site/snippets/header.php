@@ -31,3 +31,4 @@
   <?php snippet('menu') ?> 
   <?php snippet('breadcrumb') ?> 
   <main>
+    <article class="flow">

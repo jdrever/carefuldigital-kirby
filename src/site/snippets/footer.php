@@ -1,7 +1,8 @@
 
-<hr>
-<?php snippet('show-newsletter-link') ?>
-<hr>
+  <hr>
+  <?php snippet('show-newsletter-link') ?>
+  <hr>
+  </article>
 </main>
 
 
