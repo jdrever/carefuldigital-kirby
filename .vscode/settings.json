@@ -7,6 +7,10 @@
         {
             "filePath": "src/assets",
             "group": "Default"
+        },
+        {
+            "filePath": "src/site/templates",
+            "group": "Default"
         }
     ]
 }
