@@ -22,15 +22,15 @@ if(!isset($taskButton))
   <div class="container" style="align-items:center;">
     <div>
   <?php if (isset($previousPage)) : ?>
-<a href="<?= $previousPage->url() ?>"><i class="bi bi-arrow-left"></i> <?=t('PREVIOUS','PREVIOUS')?>: <?=$previousPage->title()?></a>
+<a href="<?= $previousPage->url() ?>">&larr; <?=t('PREVIOUS','PREVIOUS')?>: <?=$previousPage->title()?></a>
   <?php endif ?>
     </div>
     <div>
   <?php if (isset($nextPage)&&!in_array($nextPage->template(), array('country','team-page'))) : ?>
-<a class="btn" href="<?= $nextPage->url() ?>"><?=t('NEXT','NEXT')?>: <?=$nextPage->title()?> <i class="bi bi-arrow-right"></i></a>
+<a class="btn" href="<?= $nextPage->url() ?>"><?=t('NEXT','NEXT')?>: <?=$nextPage->title()?> &rarr;</a>
   <?php endif ?>
   <?php if (isset($taskButton)) : ?>
-    <button type="submit" class="btn"><?=$taskButton?> <i class="bi bi-arrow-right"></i></button>
+    <button type="submit" class="btn"><?=$taskButton?> &rarr;</button>
   <?php endif ?>
   </div>
 <?php endif ?>
