@@ -108,7 +108,7 @@ a {
 h1,
 h2,
 h3 {
-  font-family: Inter, sans-serif;
+  font-family: Inter, Roboto, 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial, sans-serif;
   font-weight: 800;
   line-height: 1.1;
   text-wrap: balance;
@@ -388,13 +388,26 @@ footer p
 }
 .card-content {
   margin-bottom: 10px;
+  text-align:center;
 }
 
-.card-container p
+.card-content p
 {
   font-size:1em;
 }
 
+.card-content img
+{
+  margin-top:0.5em;
+  display:inline;
+}
+
+
+.card-action
+{
+  margin:1em 0em;
+  text-align:right;
+}
 .btn,
 .card-button {
   background-color: black;
@@ -408,7 +421,7 @@ footer p
   padding: 10px;
   cursor: pointer;
   width: 100%;
-  margin-top: auto;
+  margin:0.5em 0em;
   text-align: center;
 }
 

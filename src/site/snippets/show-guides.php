@@ -21,9 +21,12 @@ if (!isset($showTitle))
     <?php if($image = $guide->image()): ?>
       <img src="<?= $image->url() ?>" alt="" width="250" height="250">
     <?php endif ?>
-    </div>
+    
     <?= $guide->description()->kt() ?>
-    <a href="<?=$guide->url()?>" class="card-button">START THE GUIDE &rarr;</a>
+    </div>
+    <div class="card-action">
+      <a href="<?=$guide->url()?>" class="card-button">START THE GUIDE &rarr;</a>
+    </div>
   </div>
   <?php endforeach ?>
 </div>

@@ -1,0 +1,12 @@
+{
+    "favorites.resources": [
+        {
+            "filePath": "src/site/snippets",
+            "group": "Default"
+        },
+        {
+            "filePath": "src/assets",
+            "group": "Default"
+        }
+    ]
+}
