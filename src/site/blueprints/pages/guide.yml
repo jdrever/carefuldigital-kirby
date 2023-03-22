@@ -29,6 +29,6 @@ columns:
         type: pages
         templates:
           - guide-section
-          - guide-task-introductions
+          - guide-task-input
 
 

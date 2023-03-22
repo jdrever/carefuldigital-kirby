@@ -1,0 +1,25 @@
+title: "Task: Take input"
+
+columns:
+  main:
+    width: 2/3
+    sections:
+      fields:
+        type: fields
+        fields:
+          mainContent: fields/guideContent
+          labelText:
+            label: Label Text
+            type: text
+          butttonText:
+            label: Button Text
+            type: text
+  sidebar:
+    width: 1/3
+    sections:
+      pages:
+        label: Input
+        type: pages
+        template: guide-input
+
+

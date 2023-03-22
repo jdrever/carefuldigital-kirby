@@ -3,7 +3,7 @@
 return function ($kirby, $page)
 {
   $taskComplete=false;
-  $allIntentions=$page->children();
+  $allInput=$page->children();
 
   if ($kirby->request()->is('POST'))
   {
@@ -13,17 +13,17 @@ return function ($kirby, $page)
       go($page->url());
       exit;
     }
-    $intentions = get('intentions');
+    $input = get('input');
     $title = date("Y-m-d h:i:sa") ;
 
     $content = [
       'title' => $title,
-      'intentions' => $intentions,
+      'input' => $input,
     ];
     $page->createChild([
       'content' => $content,
       'slug' => Str::slug('intro-' . $title),
-      'template' => 'guide-task-introduction',
+      'template' => 'guide-input',
     ]);
 
     try {
@@ -32,10 +32,10 @@ return function ($kirby, $page)
           'from'     => 'james@careful.digital',
           'replyTo'  => 'james@careful.digital',
           'to'       => 'james@careful.digital',
-          'subject'  => 'You have an Introduction to check from a guide',
+          'subject'  => 'You have a Input to check from a guide',
           'data'     => [
             'sender' => 'james@careful.digital',
-            'text' => 'Intentions:' . $intentions,
+            'text' => 'Input:' . $input,
           ]
       ]);
     }
@@ -51,5 +51,5 @@ return function ($kirby, $page)
 
     $taskComplete=true;
   }
-  return compact('taskComplete', 'allIntentions');
+  return compact('taskComplete', 'allInput');
 };
