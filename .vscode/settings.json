@@ -11,6 +11,10 @@
         {
             "filePath": "src/site/templates",
             "group": "Default"
+        },
+        {
+            "filePath": "src/site/controllers",
+            "group": "Default"
         }
     ]
 }
