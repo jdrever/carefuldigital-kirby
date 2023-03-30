@@ -370,6 +370,11 @@ footer p
   margin:0 auto;
 }
 
+.text-right {
+  text-align: right;
+  margin:0 auto;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -448,6 +453,10 @@ footer p
   display: inline-block;
   padding: 0.5em;
   margin: 0.5em 0em;
+}
+
+.mt-02 {
+  margin-top: 1em;
 }
 
 .mb-05 {
