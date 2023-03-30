@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/eaaaafba/public_html/
-    - /bin/cp -R /src/ $DEPLOYPATH
+    - export DEPLOYPATH=/home/eaaaafba/test.careful.digital/
+    - /bin/cp -R src/ $DEPLOYPATH
