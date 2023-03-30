@@ -1,6 +1,6 @@
 <?php snippet('header') ?>
 <h1>Testimonials</h1>
-<article class="testimonial">
+<div class="testimonial">
   <p>
     <i>I was part of a multi-disciplinary team managed by James, that worked on a charity-wide digital transformation
       project for FSC during 2018-2020. The Booking Admin Review project was aimed at improving the customer journey
@@ -24,9 +24,9 @@
       technology that is so inspiring and valuable.</i>
   </p>
   <p>Sophie Wild, Office Manager</p>
-</article>
+</div>
 
-<article class="testimonial">
+<div class="testimonial">
   <p>
     Steve Tilling was Director of Communications at the Field Studies Council
     when I joined the charity. We worked together for a number of years on a
@@ -43,8 +43,8 @@
       somehow manages to create a sensible and workable solution, even when
       those of us around him have struggled to see any light going forward.</i>
   </p>
-</article>
-<article class="testimonial">
+</div>
+<div class="testimonial">
   <p>
     I worked with Richard Dawson, then Global Projects Manager at Field Studies
     Council, on a series of global environmental education projects.
@@ -66,8 +66,8 @@
       client needs to communicate, rather than focusing on the latest technical
       wizardry.</i>
   </p>
-</article>
-<article class="testimonial">
+</div>
+<div class="testimonial">
   <p>
     I worked with Steve from Ironworks to get his website working effectively
     for his business.
@@ -82,6 +82,6 @@
       successfully underpinned my business for the last six years. I can’t thank
       him enough for the input he’s had.</i>
   </p>
-</article>
+</div>
 
 <?php snippet('footer') ?>

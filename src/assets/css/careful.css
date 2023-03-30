@@ -322,6 +322,19 @@ section.case-study figcaption {
   text-align: center;
 }
 
+div.testimonial
+{
+  padding:1em;
+  border: 1px solid var(--color-dark);
+  border-radius:30px;
+}
+
+div.testimonial p
+{
+  margin: 1em;
+}
+
+
 .form-label {
   display: block;
 }
