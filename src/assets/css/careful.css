@@ -345,6 +345,11 @@ div.testimonial p
   width: 90%;
 }
 
+th
+{
+  background-color: var(--bg-light);
+}
+
 footer {
   padding: 0.5em;
   background-color: var(--bg-light);
