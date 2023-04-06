@@ -29,6 +29,8 @@
 
 <body>
   <?php snippet('menu') ?> 
+  <?php if (!$page->isHomePage()) : ?>
   <?php snippet('breadcrumb') ?> 
+  <?php endif ?>
   <main>
     <article class="flow">

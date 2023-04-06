@@ -7,43 +7,22 @@
 <div class="card-group">
   <div class="card-container">
     <div class="card-content">
-      <h3>Development</h3>
+      <h3>Making digital things</h3>
       <p>
-        Providing bespoke web development based on twenty five years experience
+        Providing bespoke web and reporting development based on twenty five years experience
       </p>
       <p class="mt-02"><a class="card-button" href="/development/">Find out more &rarr;</a></p>
     </div>
   </div>
   <div class="card-container">
     <div class="card-content">
-      <h3>Project Management</h3>
+      <h3>Intentional technology</h3>
       <p>
-        Delivering effective digital projects that make people happy
+        Helping individuals and organisations think about technology more effectively through <a href="/commons/">online guides and resources</a>, <a href="/mentoring/">mentoring</a>, <a href="/project-management/">project management</a> and <a href="/strategy/">strategy</a>
       </p>
-      <p class="mt-02"><a class="card-button" href="/project-management/">Find out more &rarr;</a></p>
-    </div>
-  </div>
-  <div class="card-container">
-    <div class="card-content">
-      <h3>Strategy</h3>
-      <p>
-        Creating a digital strategy for your business or charity, or helping to change your processes
-      </p>
-      <p class="mt-02"><a class="card-button" href="/strategy/">Find out more &rarr;</a></p>
-    </div>
-    
-  </div>
-  <div class="card-container">
-    <div class="card-content">
-      <h3>Mentoring</h3>
-      <p>
-        Drawing on years of experience to help develop teams and individuals
-      </p>
-      <p class="mt-02"><a class="card-button" href="/mentoring/">Find out more &rarr;</a></p>
     </div>
   </div>
 </div>
-
 <hr>
 <h2 class="text-centre">How We Work</h2>
 <div class="card-group-sm">

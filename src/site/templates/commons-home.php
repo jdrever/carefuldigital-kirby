@@ -1,7 +1,7 @@
 <?php snippet('header') ?>
 
-<h1>Welcome to the Careful Digital Commons</h1>
-<p class="lead">This Digital Commons is a set of guides and resources that are freely available for anyone's use.
+<h1>The Careful Digital Commons</h1>
+<p class="lead">This Digital Commons is a set of guides and resources that are freely available for anyone's use.  The focus is to help individuals and organsations use technology more intentionally.
 </p>
 <div class="container px-4" id="featured-3">
   <div class="row g-4 py-2 row-cols-1 row-cols-lg-2">
