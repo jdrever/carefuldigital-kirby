@@ -18,5 +18,6 @@ columns:
         label: Blog Posts
         type: pages
         template: blog-post
+        sortBy: publishedDate desc
 
 
