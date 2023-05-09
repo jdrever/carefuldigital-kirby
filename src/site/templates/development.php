@@ -1,5 +1,5 @@
 <?php snippet('header') ?>
-<h1>Digital Development</h1>
+<h1>Making digital things</h1>
 <p>We specialise in:</p>
 <ul>
   <li><a href="#web">Web Development</a></li>
