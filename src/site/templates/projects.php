@@ -13,9 +13,10 @@
 </p>
 
 
+
+
 <section class="case-study">
   <h2>Natural Entrepreneurs</h2>
-
   <figure class="figure">
     <img src="/assets/images/projects/natent-logo-sml.jpeg" class="figure-img img-fluid rounded"
       alt="Natural Entrepeneurs logo">
@@ -67,6 +68,14 @@
     <a href="https://natent.eu" target="_blank">https://natent.eu</a>
   </p>
 </section>
+
+<section class="case-study">
+  <h2>Biolearn</h2>
+  <p class="lead">
+
+  </p>
+</section>
+
 <section class="case-study">
   <h2>Online Guide to Intentional Technology</h2>
   <p class="lead">

@@ -11,7 +11,7 @@
 <p>
   James has been working on the web since 1997. Over that time, he has built up
   considerable technical expertise, but also an understanding of what works, and
-  what is important. He has developed a series of sites
+  what is important. Recently, he has developed a series of sites
   using <a href="https://getkirby.com"></a>Kirby CMS and the <a href="https://www.11ty.dev/">11ty</a> static site generator but has a
   full understanding of all aspects of web development, and is happy to use
   whatever tools are appropriate to the job at hand.
@@ -25,49 +25,193 @@
     code
   </li>
   <li>
-    focusing super-hard on performance -
+    focusing super-hard on performance - particularly in an environmental/energy/carbon context
   </li>
 </ul>
 
-<h3>Examples of our work</h3>
+<h2>Examples of our work</h2>
+<h3>Natural Entrepreneurs (2023)</h3>
+  <figure class="figure">
+    <img src="/assets/images/projects/natent-logo.min.svg" width="
+      alt="Natural Entrepeneurs logo">
+    <figcaption class="figure-caption text-end">The Natural Entrepeneurs logo</figcaption>
+  </figure>
+  <p>
+    Careful Digital is a partner on this major EU-funded project. Natural Entrepreneurs is aimed at students across
+    Europe, in the age range of 14 to 18 years.
+    It is designed to introduce them to biomimicry – the identification of solutions found in nature and their
+    application to human design.
+    The project takes students through the biomimicry design process towards the development of sustainable design
+    solutions, and actively encourages students to collaborate.
+    One of the project outputs Careful Digital is responsible for is the Collaboration Platform; a website allowing
+    students to work through the biomimicry design process in teams,
+    accrue appreciation points, contribute to The Commons (a resource centre) and comment on other Teams’ ideas.
+  </p>
+  <aside>
+    <h4>
+      <img src="/assets/images/craft_logo.svg" alt="" width="42" height="42" />
+      CRAFT
+    </h4>
+    <p>For this project, we needed to create and host a project website, a learning environnent and collaboration
+      platform, all integrated into one seamless environment for our participants.
+      We also needed the site needed to work in the five different languages of the participating countries.</p>
+  </aside>
+    <figure class="figure ">
+      <img src="/assets/images/projects/natent.png" class="figure-img img-fluid rounded"
+        alt="A screenshot from the Natural Entrepreneurs collaboration platform " />
+      <figcaption class="figure-caption text-center">Natural Entrepreneurs collaboration platform</figcaption>
+    </figure>
+    <aside>
+    <h5>TECHNICAL STUFF</h5>
+    <p>We built the website using the Kirby content management system, and integrated in bespoke collaboration features that we developed in PHP.</p>
+    </p>
+</aside>
+  <aside>
+    <h4>
+      <img src="/assets/images/people_logo.svg" alt="" width="42" height="42" />
+      PEOPLE
+    </h4>
+    <p>For this project, we have focused on the user's experience of the platform. Consistency and accessibility for the
+      user is of great importance to Careful Digital, and we like to ensure that our products are well tested before
+      they are released. For educational projects, we work with schools and universities to build evidence of the User
+      Experience and respond accordingly to make our products as appealing and efficient as possible.</p>
+  </aside>
+  <p>
+
+    You can see the Natural Entrepreneurs website at
+    <a href="https://natent.eu" target="_blank">https://natent.eu</a>
+  </p>
+</section>
+
 <section class="case-study">
-  <h5>Change the Story (2020)</h5>
+  <h3>Biolearn (2023)</h3>
+  <figure class="figure">
+    <img src="/assets/images/projects/biolearn.svg" class="figure-img img-fluid rounded" alt="Change the Story logo">
+    <figcaption class="figure-caption">The Biolearn logo</figcaption>
+  </figure>
+  <p>
+    Careful Digital created this website with a Kirby CMS for the EU Erasmus+ funded Biolearn for the Future project.  The site works across five languages,
+    and allows teachers to browse for biomimicry resources and register to run a Biomimicry Day in their schools.
+  </p>
+  <img src="/assets/images/projects/biolearn-website.jpg" alt="The Biolearn website, showing information about Bio-Inspired Learning" width="800">
+  <aside>
+    <h4>
+      <img src="/assets/images/craft_logo.svg" alt="" width="42" height="42" />
+      CRAFT
+    </h4>
+    <p>We migrated the large existing Biolearn website over from WordPress to Kirby, where we created a new, and greatly simplified, editor experience.</p>
+  </aside>
+  <p>Visit the site at <a href="https://biolearn.eu">https://biolearn.eu</a>
+</section>
+
+<a id="shropbot"></a>
+<section class="case-study">
+  <h3>Shropshire Botanical Society (2022)</h3>
+  <p>
+    Careful Digital was delighted to deliver a website for the Shropshire Botanical Society to allow access to the
+    Society's botanical records.
+  </p>
+  <aside>
+    <h4>
+      <img src="/assets/images/craft_logo.svg" alt="" width="42" height="42" />
+      CRAFT
+    </h4>
+    <p>For this project, we needed to retrieve and present biodiversity information from the National Biodiversity
+      Network's store of data. </p>
+  </aside>
+  <figure>
+    <img src="/assets/images/projects/shrop-bot-site.jpg"
+      alt="A screenshot from the Shropshire Botanical Society website" />
+    <figcaption>Shropshire Botanical Society botanical records website</figcaption>
+  </figure>
+  <aside>
+    <h4>TECHNICAL STUFF</h4>
+    <p>Building on the excellent foundations the Society already had in place, we developed an PHP MVC web application
+      which
+      queried the NBN's API.</p>
+    <p>The code is open source and publically avaiable on GitHub at <a href="https://github.com/joejcollins/captain-magenta">https://github.com/joejcollins/captain-magenta</a>
+    </p>
+</aside>
+  <p>
+    You can see the Shropshire Botanical Society botanical records website at
+    <a href="https://flora.shropshirebotany.org.uk" target="_blank">https://flora.shropshirebotany.org.uk</a>
+    .
+  </p>
+</section>
+
+<a id="cts"></a>
+<section class="case-study">
+  <h3>Change the Story (2022)</h3>
+  <figure class="figure">
+    <img src="/assets/images/projects/cts-logo.jpg" class="figure-img img-fluid rounded" alt="Change the Story logo">
+    <figcaption class="figure-caption">The Change the Story logo</figcaption>
+  </figure>
   <p>
     Careful Digital is a partner on this major EU-funded project which brings
     together pupils in schools across Europe to create digital stories about
     climate change. One of the outputs of the project Careful Digital are
     responsible for is the development of a website to celebrate those stories.
-    It will allow visitors to search through and view the stories created, and
+    It allow visitors to search through and view the stories created, and
     hopefully be inspired to create their own stories.
   </p>
-  <figure>
-    <img src="https://changethestory.eu/images/spaceman_logo.svg" />
-    <figcaption>The Change the Story logo</figcaption>
+  <p>
+    We worked with
+    <a href="http://mynameismartin.com/about" target="_blank">Martin Wright</a>
+    on the design of the site.
+  </p>
+  <aside>
+    <h4>
+      <img src="/assets/images/craft_logo.svg" alt="" width="42" height="42" />
+      CRAFT
+    </h4>
+    <p>There was quite a complex technical challenge here, as the stories
+      were made in a variety of digital formats, using
+      different tools and technologies, and we needed to find a way to present those
+      stories in as accessible way as possible. Plus the site needed to work in the five different languages of the
+      participating countries.</p>
+  </aside>
+  <figure class="figure ">
+    <img src="/assets/images/projects/cts-stories.jpg" class="figure-img img-fluid rounded"
+      alt="The Change the Story Celebration website" />
+    <figcaption class="figure-caption text-center">The Change the Story Celebration website</figcaption>
   </figure>
+  <aside>
+    <h5>TECHNICAL STUFF</h5>
+    <p>
+      The site was developed using
+      the wonderful
+      <a href="https://www.11ty.dev/">11ty static site generator</a>
+      and we stored the stories in the equally wonderful
+      <a href="https://sanity.io">Sanity CMS</a>
+      , which allows complex content to
+      be stored and searched easily. The separation of blisteringly fast static
+      website and complex and sophisticated content management system will offer
+      the best possible experience for editors and visitors to the site.
+    </p>
+</aside>
+  <p>We also created and hosted a Moodle learning environment for teachers for the schools involved in the trial.</p>
+  <aside>
+    <h4>
+      <img src="/assets/images/people_logo.svg" alt="" width="42" height="42" style="display:inline;">PEOPLE
+    </h4>
+    <p>Another element of our work on this project has been training teachers how to deliver the digital storymaking
+      component of the project.
+      We've given technical advice on devices and software and planning advice on how to build the component into
+      schemes of work.</p>
+  </aside>
+  <p>
 
-  <p class="technical">
-    Technical: There is quite a complex technical challenge here, as the stories
-    wil be in a variety of digital formats, with many of the stories using
-    different tools and technologies, and we need to find a way to present those
-    stories in as accessible way as possible. The site will be developed using
-    the wonderful
-    <a href="https://www.11ty.dev/">11ty static site generator</a> and we are
-    looking at storing the stories in the equally wonderful
-    <a href="https://sanity.io">Sanity CMS</a>, which allows complex content to
-    be stored and searched easily. The separation of blisteringly fast static
-    website and complex and sophisticated content management system will offer
-    the best possible experience for editors and visitors to the site.
+    You can see the Change the Story Celebration website at
+    <a href="https://stories.changethestory.eu" target="_blank">https://stories.changethestory.eu</a>
   </p>
 </section>
-<p>
-  You can see the initial Change the Story project website at
-  <a href="https://changethestory.eu">https://changethestory.eu</a>
-</p>
+
+
 <section class="case-study">
   <h5>Online Book about Moby Dick (2020)</h5>
   <p>
-    I am in the progress of recreating and moving all my sites to a new
-    platform (Netlifyhna), which provides exceptional levels of performance. I am writing an
+    In 2020 I moved many of my sites to the work as static sites on the
+    Netlify platform, which provides exceptional levels of performance. I am writing an
     online book about Herman Melville's famous novel Moby Dick at
     <a href="https://moby.jamesdrever.co.uk">https://moby.jamesdrever.co.uk</a>.
     Part of this project is figuring out how best to create books online, and
@@ -86,18 +230,15 @@
     <a href="https://www.11ty.dev/">11ty static site generator</a> and being
     hosted by <a href="https://www.netlify.com">Netlify</a>. The book is being
     written in Markdown, which allows non-tecnical users to create content which
-    11ty then converts to a high-performance static website. The site gets the
-    <a
-      href="https://developers.google.com/speed/pagespeed/insights/?url=moby.jamesdrever.co.uk"
-      >highest possible rating from Google Page Speed</a
-    >. I've made the code and content freely available on GitHub at
+    11ty then converts to a high-performance static website.
+    I've made the code and content freely available on GitHub at
     <a href="https://github.com/jdrever/moby-dick-book"
       >https://github.com/jdrever/moby-dick-book</a
     >
   </p>
 </section>
 <section class="case-study">
-  <h5>The Urban Science website (2019)</h5>
+  <h3>The Urban Science website (2019)</h3>
   <p>
     I created a website for the Urban Science EU project. The landing page for
     the project is at
@@ -121,13 +262,13 @@
 </section>
 
 <section class="case-study">
-  <h5>The Real World Learning Network website (2016-7)</h5>
+  <h3>The Real World Learning Network website (2016-7)</h3>
   <p>
     This website supported the Real World Learning EU project. It is online at
     <a href="https://www.rwlnetwork.org/">https://www.rwlnetwork.org/</a>
   </p>
   <figure>
-    <img src="/images/rwl-site.png" />
+    <img src="/assets/images/projects/rwl-site.jpg" width="800" />
     <figcaption>The Real World Learing website home page</figcaption>
   </figure>
   <p class="technical">
@@ -145,7 +286,7 @@
 </section>
 
 <section class="case-study">
-  <h5>The Field Studies Council websites (2002-2017)</h5>
+  <h3>The Field Studies Council websites (2002-2017)</h3>
   <p>
     Between 2002 and 2017, I developed the main and various resources websites
     for the Field Studies Council. The main FSC website was large, including
@@ -181,7 +322,7 @@
   </ul>
   <p class="technical">
     Technical: These websites were created using the Umbraco content management
-    system, in which James is a
+    system, in which James was a
     <a href="/services/umbraco/">Certified Expert</a>. The bespoke ecommerce
     functionality on the main FSC site was developed in C# using MVC. The
     functionality was designed to be highly modular, using dependency injection.

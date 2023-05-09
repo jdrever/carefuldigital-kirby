@@ -283,8 +283,10 @@ section {
 
 aside {
   padding: 1em;
+  margin-top:1em;
   background-color: var(--bg-light);
   border-radius: 2em;
+  border: 2px solid var(--bg-dark);
 }
 
 figure {
@@ -471,6 +473,11 @@ footer p
 .topyenoh {
   position: absolute;
   left: -9999px;
+}
+
+h4 img
+{
+  display:inline;
 }
 
 @media (min-width: 914px) {
