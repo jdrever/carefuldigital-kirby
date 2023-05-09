@@ -12,7 +12,7 @@
   James has been working on the web since 1997. Over that time, he has built up
   considerable technical expertise, but also an understanding of what works, and
   what is important. Recently, he has developed a series of sites
-  using <a href="https://getkirby.com"></a>Kirby CMS and the <a href="https://www.11ty.dev/">11ty</a> static site generator but has a
+  using <a href="https://getkirby.com">Kirby CMS</a> and the <a href="https://www.11ty.dev/">11ty</a> static site generator but has a
   full understanding of all aspects of web development, and is happy to use
   whatever tools are appropriate to the job at hand.
 </p>
