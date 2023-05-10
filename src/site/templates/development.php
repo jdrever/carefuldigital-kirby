@@ -206,37 +206,6 @@
   </p>
 </section>
 
-
-<section class="case-study">
-  <h5>Online Book about Moby Dick (2020)</h5>
-  <p>
-    In 2020 I moved many of my sites to the work as static sites on the
-    Netlify platform, which provides exceptional levels of performance. I am writing an
-    online book about Herman Melville's famous novel Moby Dick at
-    <a href="https://moby.jamesdrever.co.uk">https://moby.jamesdrever.co.uk</a>.
-    Part of this project is figuring out how best to create books online, and
-    sharing that in an open source way so others can use the same techniques.
-  </p>
-  <figure>
-    <img src="https://moby.jamesdrever.co.uk/images/cover-small.png" />
-    <figcaption>The Moby Dick book cover image</figcaption>
-  </figure>
-  <p class="technical">
-    Technical: The challenge here is to allow the creation of content to be
-    straightforward and separate as possible from the complexities of creating a
-    coherent website design, so the "author" can just write, and the site will
-    "magically" create it's own navigation. This site is also being developed
-    using
-    <a href="https://www.11ty.dev/">11ty static site generator</a> and being
-    hosted by <a href="https://www.netlify.com">Netlify</a>. The book is being
-    written in Markdown, which allows non-tecnical users to create content which
-    11ty then converts to a high-performance static website.
-    I've made the code and content freely available on GitHub at
-    <a href="https://github.com/jdrever/moby-dick-book"
-      >https://github.com/jdrever/moby-dick-book</a
-    >
-  </p>
-</section>
 <section class="case-study">
   <h3>The Urban Science website (2019)</h3>
   <p>
