@@ -1,5 +1,31 @@
 <?php snippet('header') ?>
 <h1>Testimonials</h1>
+
+<div class="testimonial">
+  <p><i>
+      As a botanical society we have a responsibility to our members to try to make their data available to help
+      conserve the plants in Shropshire. We had a small understanding of the work that was needed to create our online
+      database but needed to be guided by a company we could trust to do the best job possible. Careful Digital were
+      able to understand the scope and nature of the project and were sympathetic to our objectives. James took time to
+      develop a relationship with staff at the National Biodiversity Network, who held our data within their own
+      significantly larger database. He patiently developed an understanding of the API, spending some of his own time
+      in order to better get to grips with a complex interface. The project was broken into several phases; enabling
+      each to be delivered independently. This allowed a team within the botanical society to test, and provide
+      feedback, before each phase went live. As each section was developed James worked diligently through any teething
+      problems, responding promptly to feedback, correcting any problems quickly. Throughout the entire project Careful
+      Digital were consistent in delivering everything that had been carefully designed. improving upon the design and
+      functionality: on time and within budget. We are proud to be the only county in Britain to provide free online
+      access to their botanical data.
+    </i></p>
+  <p>
+    <i>
+      So when it then came to ensuring that the website would be hosted and maintained Careful Digital was the natural
+      choice which has also proved to be another great decision as James hasn't taken his eye off the ball, responding
+      quickly and taking time to understand problems, fixing them promptly and communicating effectively. </i>
+  </p>
+  <p>John Handley, Shropshire Botanical Society</p>
+</div>
+
 <div class="testimonial">
   <p>
     <i>I was part of a multi-disciplinary team managed by James, that worked on a charity-wide digital transformation
