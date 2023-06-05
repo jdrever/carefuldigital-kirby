@@ -45,7 +45,7 @@
       personable and re-assuring presence to call upon. In my role as data manager, I am thankful to be able to access
       his wisdom and expertise to progress the charity’s data priorities and data needs.</i></p>
   <p>
-    <li>If you are looking to develop your data reporting capability and are wishing to exploit the potential of
+    <i>If you are looking to develop your data reporting capability and are wishing to exploit the potential of
       Power BI using data from your CRM system and other sources, then James Drever (Careful Digital) comes highly
       recommended.</i>
   </p>
