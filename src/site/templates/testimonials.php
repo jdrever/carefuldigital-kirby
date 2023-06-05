@@ -3,33 +3,53 @@
 
 <div class="testimonial">
   <p>We worked with Shropshire Botanical Society to provide online access to their botanical data.</p>
-    <p><i>
-        As a botanical society we have a responsibility to our members to try to make their data available to help
-        conserve the plants in Shropshire. We had a small understanding of the work that was needed to create our online
-        database but needed to be guided by a company we could trust to do the best job possible. Careful Digital were
-        able to understand the scope and nature of the project and were sympathetic to our objectives. James took time
-        to
-        develop a relationship with staff at the National Biodiversity Network, who held our data within their own
-        significantly larger database. He patiently developed an understanding of the API, spending some of his own time
-        in order to better get to grips with a complex interface.
-      </i></p>
-    <p><i>The project was broken into several phases; enabling
-        each to be delivered independently. This allowed a team within the botanical society to test, and provide
-        feedback, before each phase went live. As each section was developed James worked diligently through any
-        teething
-        problems, responding promptly to feedback, correcting any problems quickly. Throughout the entire project
-        Careful
-        Digital were consistent in delivering everything that had been carefully designed. improving upon the design and
-        functionality: on time and within budget. We are proud to be the only county in Britain to provide free online
-        access to their botanical data.
-      </i></p>
-    <p>
-      <i>
-        So when it then came to ensuring that the website would be hosted and maintained Careful Digital was the natural
-        choice which has also proved to be another great decision as James hasn't taken his eye off the ball, responding
-        quickly and taking time to understand problems, fixing them promptly and communicating effectively. </i>
-    </p>
-    <p>John Handley, Shropshire Botanical Society</p>
+  <p><i>
+      As a botanical society we have a responsibility to our members to try to make their data available to help
+      conserve the plants in Shropshire. We had a small understanding of the work that was needed to create our online
+      database but needed to be guided by a company we could trust to do the best job possible. Careful Digital were
+      able to understand the scope and nature of the project and were sympathetic to our objectives. James took time
+      to
+      develop a relationship with staff at the National Biodiversity Network, who held our data within their own
+      significantly larger database. He patiently developed an understanding of the API, spending some of his own time
+      in order to better get to grips with a complex interface.
+    </i></p>
+  <p><i>The project was broken into several phases; enabling
+      each to be delivered independently. This allowed a team within the botanical society to test, and provide
+      feedback, before each phase went live. As each section was developed James worked diligently through any
+      teething
+      problems, responding promptly to feedback, correcting any problems quickly. Throughout the entire project
+      Careful
+      Digital were consistent in delivering everything that had been carefully designed. improving upon the design and
+      functionality: on time and within budget. We are proud to be the only county in Britain to provide free online
+      access to their botanical data.
+    </i></p>
+  <p>
+    <i>
+      So when it then came to ensuring that the website would be hosted and maintained Careful Digital was the natural
+      choice which has also proved to be another great decision as James hasn't taken his eye off the ball, responding
+      quickly and taking time to understand problems, fixing them promptly and communicating effectively. </i>
+  </p>
+  <p>John Handley, Shropshire Botanical Society</p>
+</div>
+
+<div class="testimonial">
+  <p>We have been working with Field Studies Council to develop their data reporting architecture.</p>
+  <p><i>James Drever (Careful Digital) has implemented Power BI reporting here at Field Studies Council from scratch.
+      First, designing the data reporting architecture required and putting the supporting infrastructure into place.
+      His work has included organising the daily export of data from our CRM, building our SQL reporting database/data
+      repository, transforming, and aligning the exported data into formats suitable for our reporting needs. To then
+      creating our Power BI datasets and reports that deliver/power our business insight and data analysis
+      capability.</i></p>
+  <p><i>James’ focus isn’t purely of a technical nature. His holistic approach enables James to see and consider the
+      bigger data picture, enabling him to offer sensible suggestions and data/reporting solutions. James is also a
+      personable and re-assuring presence to call upon. In my role as data manager, I am thankful to be able to access
+      his wisdom and expertise to progress the charity’s data priorities and data needs.</i></p>
+  <p>
+    <li>If you are looking to develop your data reporting capability and are wishing to exploit the potential of
+      Power BI using data from your CRM system and other sources, then James Drever (Careful Digital) comes highly
+      recommended.</i>
+  </p>
+  <p>Gary Foster, Information Systems and Information Security Manager,Field Studies Council<p>
 </div>
 
 <div class="testimonial">
