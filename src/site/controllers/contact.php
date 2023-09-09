@@ -31,7 +31,7 @@ return function($kirby, $pages, $page) {
         $turnstileChallenge = kirby()->request()->get($fieldName);
 
         if (empty($turnstileChallenge)) {
-            $this->reject(t('turnstile-empty'), $fieldName);
+            throw new Exception('The Turnstile secret key is not configured');
         }
 
         $secretKey = option('turnstile.secretKey');
@@ -49,7 +49,7 @@ return function($kirby, $pages, $page) {
         ]);
 
         if ($response->code() !== 200 || $response->json()['success'] !== true) {
-            $this->reject(t('turnstile-invalid'), $fieldName);
+            throw new Exception('Turnstile rejected this input');
         }
 
 
