@@ -1,7 +1,7 @@
 <?php
 
 return [
-  'debug'  => $_SERVER['HTTP_HOST'] == 'localhost:8081' ? true : false,
+  'debug'  => $_SERVER['HTTP_HOST'] == 'localhost:8081' ? true : true,
   'cache' => [
     'pages' => [
       'active' => $_SERVER['HTTP_HOST'] == 'localhost:8081' ? false : true,
