@@ -21,7 +21,6 @@ return function($kirby, $pages, $page) {
     $turnstileJs='<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>';
 
     if($kirby->request()->is('POST') && get('submit')) {
-        $form = new Form(/* ... */);
 
         // check the honeypot
         if(empty(get('website')) === false) {
