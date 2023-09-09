@@ -40,7 +40,7 @@ return function($kirby, $pages, $page) {
             throw new Exception('The Turnstile secret key is not configured');
         }
 
-        $response = Remote::request(self::verificationUrl, [
+        $response = Remote::request($verificationUrl, [
           'method' => 'POST',
           'data' => [
             'secret' => $secretKey,
@@ -49,7 +49,7 @@ return function($kirby, $pages, $page) {
         ]);
 
         if ($response->code() !== 200 || $response->json()['success'] !== true) {
-            $this->reject(t('turnstile-invalid'), self::fieldName);
+            $this->reject(t('turnstile-invalid'), $fieldName);
         }
 
 
