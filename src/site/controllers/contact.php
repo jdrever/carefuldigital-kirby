@@ -28,10 +28,10 @@ return function($kirby, $pages, $page) {
             exit;
         }
 
-        $turnstileChallenge = kirby()->request()->get(self::fieldName);
+        $turnstileChallenge = kirby()->request()->get($fieldName);
 
         if (empty($turnstileChallenge)) {
-            $this->reject(t('turnstile-empty'), self::fieldName);
+            $this->reject(t('turnstile-empty'), $fieldName);
         }
 
         $secretKey = option('turnstile.secretKey');
