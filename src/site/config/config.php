@@ -48,5 +48,7 @@ return [
         '1800w' => ['width' => 1800, 'format' => 'webp']
       ],
     ]
-  ]
+  ],
+  'turnstile.siteKey' => '0x4AAAAAAAJ705ZmKYQpZBaO',
+  'turnstile.secretKey'  => '0x4AAAAAAAJ706zwFUKWfmb4usF4G6EJzKQ'
 ];

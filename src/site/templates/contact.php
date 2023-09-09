@@ -47,8 +47,10 @@
     <textarea id="text" name="text" class="form-item"  required><?= esc($data['text'] ?? '') ?></textarea>
     <?= isset($alert['text']) ? '<span class="alert error">' . esc($alert['text']) . '</span>' : '' ?>
   </div>
+  <?= $turnstileDiv ?>
   <input type="submit" name="submit" value="Submit" class="btn">
 </form>
 <?php endif ?>
+<?= $turnstileJs ?>
 
 <?php snippet('footer') ?>

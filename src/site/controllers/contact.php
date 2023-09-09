@@ -3,13 +3,56 @@ return function($kirby, $pages, $page) {
 
     $alert = null;
 
+
+    // Turnstile HTML input field name
+    $fieldName = 'cf-turnstile-response';
+
+
+    // URL for the Turnstile verification
+    $verificationUrl = 'https://challenges.cloudflare.com/turnstile/v0/siteverify';
+
+    $turnstileSiteKey = option('turnstile.siteKey');
+
+    if (empty($turnstileSiteKey)) {
+        throw new Exception('The Turnstile sitekey for Uniform is not configured');
+    }
+
+    $turnstileDiv='<div class="cf-turnstile" data-sitekey="'.$turnstileSiteKey.'" data-callback="javascriptCallback"></div>';
+    $turnstileJs='<script src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>';
+
     if($kirby->request()->is('POST') && get('submit')) {
+        $form = new Form(/* ... */);
 
         // check the honeypot
         if(empty(get('website')) === false) {
             go($page->url());
             exit;
         }
+
+        $turnstileChallenge = kirby()->request()->get(self::fieldName);
+
+        if (empty($turnstileChallenge)) {
+            $this->reject(t('turnstile-empty'), self::fieldName);
+        }
+
+        $secretKey = option('turnstile.secretKey');
+
+        if (empty($secretKey)) {
+            throw new Exception('The Turnstile secret key is not configured');
+        }
+
+        $response = Remote::request(self::verificationUrl, [
+          'method' => 'POST',
+          'data' => [
+            'secret' => $secretKey,
+            'response' => $turnstileChallenge,
+          ],
+        ]);
+
+        if ($response->code() !== 200 || $response->json()['success'] !== true) {
+            $this->reject(t('turnstile-invalid'), self::fieldName);
+        }
+
 
         $data = [
             'name' => get('name'),
@@ -66,6 +109,8 @@ return function($kirby, $pages, $page) {
 
     return [
         'alert'   => $alert,
+        'turnstileDiv' => $turnstileDiv,
+        'turnstileJs' => $turnstileJs,
         'data'    => $data ?? false,
         'success' => $success ?? false
     ];
